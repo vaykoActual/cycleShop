@@ -172,7 +172,7 @@ Aslan Shaken
 Varit Seekhao
 Steven Strumolo
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/vaykoActual/project3](https://github.com/vaykoActual/project3)
 
 
 
