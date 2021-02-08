@@ -160,6 +160,8 @@ module.exports = mongoose.model('posts', Post)
 <!-- ROADMAP -->
 ## Roadmap
 
+https://drive.google.com/file/d/1Xy-vTyBdSTBXf4wxGKbRd_JmuqNuA9RX/view?usp=sharing
+
 See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
 
 ![Build page 1920 – 2](https://user-images.githubusercontent.com/76179998/107255527-66160800-6a06-11eb-82d3-ed900e35d983.png)
