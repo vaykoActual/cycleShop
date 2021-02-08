@@ -40,7 +40,7 @@
   <h3 align="center">project3</h3>
 
   <p align="center">
-    project_description
+    project3 is a MERN stack motorcycle trade, buy and sell app.
     <br />
     <a href="https://github.com/vaykoActual/project3"><strong>Explore the docs »</strong></a>
     <br />
