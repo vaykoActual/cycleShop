@@ -201,7 +201,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Shayne Vaykovich - (https://www.linkedin.com/in/shayne-vaykovich-57530721/) - Linkedin
+Shayne Vaykovich
 Aslan Shaken
 Varit Seekhao
 Steven Strumolo
