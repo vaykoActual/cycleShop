@@ -22,20 +22,19 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][https://github.com/vaykoActual/project3]
-[![Forks][forks-shield]][https://github.com/vaykoActual/project3]
-[![Stargazers][stars-shield]][https://github.com/vaykoActual/project3]
-[![Issues][issues-shield]][https://github.com/vaykoActual/project3/issues]
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/https://github.com/vaykoActual/project3">
-    <img src="https://i.imgur.com/AJOIKXEb.jpg" alt="Logo" width="80" height="80">
+    <img src="https://i.imgur.com/OIC7znsb.jpg" alt="Logo" width="180" height="180">
   </a>
 
   <h3 align="center">project3</h3>
@@ -43,12 +42,12 @@
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/vaykoActual/project3"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/vaykoActual/project3/issues">Report Bug</a>
     ·
     <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
   </p>
@@ -87,13 +86,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
 Build a full stack Mongo/Express/React/Node app, commonly referred to as the MERN Stack.
 
-Here's a blank template to get started:
+<!-- Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description` -->
 
 
 ### Built With
@@ -115,6 +114,9 @@ This is an example of how to list things you need to use the software and how to
 * npm
   ```sh
   npm install npm@latest -g
+  npm inti -y
+  npm install morgan express cors body-parser
+  npm install nodemon -D
   ```
 
 ### Installation
@@ -133,9 +135,11 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+This app will be used to buy and sell motorcycles...
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+<!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources. -->
+
+<!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
 
 
 ## Schema
@@ -162,12 +166,11 @@ module.exports = mongoose.model('posts', Post)
 
 https://drive.google.com/file/d/1Xy-vTyBdSTBXf4wxGKbRd_JmuqNuA9RX/view?usp=sharing
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+![Screen Shot 2021-02-08 at 4 52 32 PM](https://user-images.githubusercontent.com/76179998/107286194-41ce2180-6a2e-11eb-8e39-3d974ac366fe.png)
 
-![Build page 1920 – 2](https://user-images.githubusercontent.com/76179998/107255527-66160800-6a06-11eb-82d3-ed900e35d983.png)
-![Edit page 1920 – 3](https://user-images.githubusercontent.com/76179998/107255363-36670000-6a06-11eb-8a56-808c8d44cdee.png)
-![Contact page 1920 – 4](https://user-images.githubusercontent.com/76179998/107255416-454db280-6a06-11eb-8a64-d8d9f46c3be3.png)
-![Landing page 1920 – 1](https://user-images.githubusercontent.com/76179998/107255456-51397480-6a06-11eb-9d9f-d86722743941.png)
+![Screen Shot 2021-02-08 at 4 52 58 PM](https://user-images.githubusercontent.com/76179998/107286267-5ca09600-6a2e-11eb-9932-c158670b98a1.png)
+
+![Screen Shot 2021-02-08 at 4 53 14 PM](https://user-images.githubusercontent.com/76179998/107286359-7c37be80-6a2e-11eb-9a01-e7ff20a1a19b.png)
 
 
 
@@ -221,13 +224,13 @@ https://docs.google.com/document/d/1TuvOuy0UQ42KGOza9IAGs8pkPfmoIlVP4Vj6OnJNGG4/
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo/graphs/contributors
+[contributors-url]: https://github.com/vaykoActual/project3
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo/network/members
+[forks-url]: https://github.com/vaykoActual/project3
 [stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo/stargazers
+[stars-url]: https://github.com/vaykoActual/project3
 [issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo/issues
+[issues-url]: https://github.com/vaykoActual/project3/issues
 [license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
 [license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
