@@ -167,7 +167,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - (https://www.linkedin.com/in/shayne-vaykovich-57530721/) - Linkedin
+Shayne Vaykovich - (https://www.linkedin.com/in/shayne-vaykovich-57530721/) - Linkedin
+Aslan Shaken
+Varit Seekhao
+Steven Strumolo
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
@@ -181,7 +184,9 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 * [Steven Strumolo]()
 * [Varit Seekhao]()
 
+## Team Expectations
 
+https://docs.google.com/document/d/1TuvOuy0UQ42KGOza9IAGs8pkPfmoIlVP4Vj6OnJNGG4/edit?usp=sharing
 
 
 
