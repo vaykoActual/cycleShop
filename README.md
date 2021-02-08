@@ -97,9 +97,12 @@ Build a full stack Mongo/Express/React/Node app, commonly referred to as the MER
 
 ### Built With
 
-* [React]()
-* [Heroku]()
 * [Mongo]()
+* [Express]()
+* [React]()
+* [Node]()
+
+
 
 
 
