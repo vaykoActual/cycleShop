@@ -138,6 +138,24 @@ Use this space to show useful examples of how a project can be used. Additional 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 
+## Schema
+
+```
+const mongoose = require('mongoose')
+const Schema = mongoose.Schema
+
+const Post = new Schema(
+    {
+        title: { type: String, required: true },
+        imgURL: { type: String, required: true },
+        desciption: { type: String, required: true },
+        price: { type: String, required: true },
+    },
+    { timestamps: true }
+)
+
+module.exports = mongoose.model('posts', Post)
+```
 
 <!-- ROADMAP -->
 ## Roadmap
