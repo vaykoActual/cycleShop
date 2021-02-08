@@ -144,6 +144,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
 
+![Build page 1920 – 2](https://user-images.githubusercontent.com/76179998/107255527-66160800-6a06-11eb-82d3-ed900e35d983.png)
+![Edit page 1920 – 3](https://user-images.githubusercontent.com/76179998/107255363-36670000-6a06-11eb-8a56-808c8d44cdee.png)
+![Contact page 1920 – 4](https://user-images.githubusercontent.com/76179998/107255416-454db280-6a06-11eb-8a64-d8d9f46c3be3.png)
+![Landing page 1920 – 1](https://user-images.githubusercontent.com/76179998/107255456-51397480-6a06-11eb-9d9f-d86722743941.png)
+
+
 
 
 <!-- CONTRIBUTING -->
