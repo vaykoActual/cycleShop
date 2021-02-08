@@ -167,7 +167,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Your Name - (https://www.linkedin.com/in/shayne-vaykovich-57530721/) - Linkedin
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
@@ -176,9 +176,10 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* [Aslan Shaken]()
+* [Shayne Vaykovich]()
+* [Steven Strumolo]()
+* [Varit Seekhao]()
 
 
 
