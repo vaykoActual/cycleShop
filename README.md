@@ -34,11 +34,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/https://github.com/vaykoActual/project3">
     <img src="https://i.imgur.com/AJOIKXEb.jpg" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">project_title</h3>
+  <h3 align="center">project3</h3>
 
   <p align="center">
     project_description
