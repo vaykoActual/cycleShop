@@ -34,7 +34,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/https://github.com/vaykoActual/project3">
-    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.heddels.com%2Fwp-content%2Fuploads%2F2016%2F06%2FThe-Race-of-Gentlemen-2016-13.jpg&f=1&nofb=1" alt="Logo" width="280" height="180">
+    <img src="https://st.automobilemag.com/uploads/sites/11/2017/01/The-Race-of-Gentlemen-05.jpg" alt="Logo" width="280" height="180">
   </a>
 
   <h3 align="center"><strong>project3</strong></h3>
