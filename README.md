@@ -166,7 +166,12 @@ module.exports = mongoose.model('posts', Post)
 
 <!-- ROADMAP -->
 ## Roadmap
+<<<<<<< HEAD
 
+=======
+Styling - https://ibb.co/2WV5x7k
+Flow-chart- https://ibb.co/GP3nsL9
+>>>>>>> a11272ee807bcd360928b0d4dacf1c5b162d9952
 
 ![Screen Shot 2021-02-09 at 11 17 14 AM](https://user-images.githubusercontent.com/76179998/107393247-94f4b280-6ac8-11eb-8648-3597426035a5.png)
 
