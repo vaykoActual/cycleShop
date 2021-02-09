@@ -220,7 +220,7 @@ Project Link: [https://github.com/vaykoActual/project3](https://github.com/vayko
 
 ## Team Expectations
 
-https://docs.google.com/document/d/1TuvOuy0UQ42KGOza9IAGs8pkPfmoIlVP4Vj6OnJNGG4/edit?usp=sharing
+https://docs.google.com/document/d/1xWi6WSEvyMIOxNFFeid_hWvICWHbrnMiSHir_I-MBtY/edit
 
 
 
