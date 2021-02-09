@@ -37,10 +37,10 @@
     <img src="https://i.imgur.com/OIC7znsb.jpg" alt="Logo" width="180" height="180">
   </a>
 
-  <h3 align="center">project3</h3>
+  <h3 align="center"><strong>project3</strong></h3>
 
   <p align="center">
-    project3 is a MERN stack motorcycle trade, buy and sell app.
+    project3 is a MERN stack, motorcycle exchange app.
     <br />
     <a href="https://github.com/vaykoActual/project3"><strong>Explore the docs »</strong></a>
     <br />
@@ -113,7 +113,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+<!-- This is an example of how to list things you need to use the software and how to install them. -->
 * npm
   ```sh
   npm install npm@latest -g
@@ -138,7 +138,7 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-This app will be used to buy and sell motorcycles...
+This app will demonstrate the CRUD framework utilizing Mongo, Express, React and Node. We setup the frontend as motorcycle e-commerce site with JWT authentication.
 
 <!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources. -->
 
@@ -201,9 +201,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Shayne Vaykovich
-Aslan Shaken
-Varit Seekhao
+Shayne Vaykovich: svayko@gmail.com<br>
+Aslan Shaken<br>
+Varit Seekhao<br>
 Steven Strumolo
 
 Project Link: [https://github.com/vaykoActual/project3](https://github.com/vaykoActual/project3)
