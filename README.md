@@ -167,13 +167,12 @@ module.exports = mongoose.model('posts', Post)
 <!-- ROADMAP -->
 ## Roadmap
 
-https://drive.google.com/file/d/1Xy-vTyBdSTBXf4wxGKbRd_JmuqNuA9RX/view?usp=sharing
 
-![Screen Shot 2021-02-08 at 4 52 32 PM](https://user-images.githubusercontent.com/76179998/107286194-41ce2180-6a2e-11eb-8e39-3d974ac366fe.png)
+![Screen Shot 2021-02-09 at 11 17 14 AM](https://user-images.githubusercontent.com/76179998/107393247-94f4b280-6ac8-11eb-8648-3597426035a5.png)
 
-![Screen Shot 2021-02-08 at 4 52 58 PM](https://user-images.githubusercontent.com/76179998/107286267-5ca09600-6a2e-11eb-9932-c158670b98a1.png)
 
-![Screen Shot 2021-02-08 at 4 53 14 PM](https://user-images.githubusercontent.com/76179998/107286359-7c37be80-6a2e-11eb-9a01-e7ff20a1a19b.png)
+
+Component Hierarchy
 
 
 
