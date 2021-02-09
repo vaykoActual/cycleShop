@@ -150,18 +150,15 @@ This app will demonstrate the CRUD framework utilizing Mongo, Express, React and
 ```
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
-
-const Post = new Schema(
-    {
-        title: { type: String, required: true },
-        imgURL: { type: String, required: true },
-        desciption: { type: String, required: true },
-        price: { type: String, required: true },
-    },
-    { timestamps: true }
+const User = new Schema(
+  {
+    username: { type: String, required: true },
+    email: { type: String, required: true },
+    password_digest: { type: String, required: true }
+  },
+  { timestamps: true }
 )
-
-module.exports = mongoose.model('posts', Post)
+module.exports = mongoose.model('users', User)
 ```
 
 <!-- ROADMAP -->
