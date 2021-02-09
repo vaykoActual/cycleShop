@@ -171,12 +171,6 @@ module.exports = mongoose.model('posts', Post)
 ![Screen Shot 2021-02-09 at 11 17 14 AM](https://user-images.githubusercontent.com/76179998/107393247-94f4b280-6ac8-11eb-8648-3597426035a5.png)
 
 
-
-Component Hierarchy
-
-
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
