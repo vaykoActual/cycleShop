@@ -128,14 +128,6 @@ const main = async () => {
         "Ducati enters the Cruiser world and does so in its very own way, representing the best of both worlds. The Ducati world: thrilling performance, sporty power, advanced electronics. The cruiser world: long, low, forward positioned footpegs, powerful torque even at low speeds, no compromise in terms of materals and finishes. The XDiavel is now available in the new color Matt Liquid Concrete Grey. ",
       price: "20,995",
       brand: "Ducati",
-    },{
-      name: "Streetfighter V4",
-      imgURL:
-        "https://media.ducati.com/images/previews/sf2g/sfv4/r/sf2g-sfv4-r-21-preview.png",
-      description:
-        "The Desmosedici Stradale was designed around the heart of the MotoGP V4 engine – its cylinder heads. The fluid dynamics concept of the Desmosedici Stradale is based on the dimensions and geometry used in the Desmosedici GP bike, as is the engine layout: 90° V4 banked rearward 42°. This solution makes the engine extremely compact, allowing the centring of the masses and better integration into the bike.",
-      price: "19,995",
-      brand: "Ducati",
     },
   ];
 
