@@ -136,14 +136,6 @@ const main = async () => {
         "The Desmosedici Stradale was designed around the heart of the MotoGP V4 engine – its cylinder heads. The fluid dynamics concept of the Desmosedici Stradale is based on the dimensions and geometry used in the Desmosedici GP bike, as is the engine layout: 90° V4 banked rearward 42°. This solution makes the engine extremely compact, allowing the centring of the masses and better integration into the bike.",
       price: "19,995",
       brand: "Ducati",
-    },{
-      name: "Panigale V4 SP",
-      imgURL:
-        "https://images.ctfassets.net/x7j9qwvpvr5s/4q55EiY24lj6ZuJ5Fhua9m/0ebb1014cf5bf9f4add4f1ddc417489e/PV4-SP-02-gallery-1920x1080.jpg",
-      description:
-        "Thanks to its technical equipment, the new Panigale V4 SP is the ideal bike for the amateur who wants to hit the track and be fast immediately. The bike is easy to ride and requires little physical effort, regardless of your riding skills. The quality of the bike under braking is extraordinary, as is the lightness in going into the lean and the tendency to close the line. An amateur rider on the \"SP\" will be faster than if he were riding the more demanding \"R\" version.",
-      price: "37,000",
-      brand: "Ducati",
     },
   ];
 
