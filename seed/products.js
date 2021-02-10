@@ -94,7 +94,7 @@ const main = async () => {
     {
       name: "THE BMW R 1250 R",
       imgURL: "https://mcn-images.bauersecure.com/PageFiles/672103/bmw-r1250r-1.jpg",
-      description: "The R 1250 R is designed for a dynamic appearance. Equipped with the all-new Boxer engine – with a maximum torque of 105 lb-ft, the reworked engine delivers more power than ever before. The variable camshaft control BMW ShiftCam is innovative technology that offers optimum performance in every engine speed range. During a relaxed cruise or a sporty tour, experience the pure thrill of riding along with the typical punch of the Boxer engine."
+      description: "The R 1250 R is designed for a dynamic appearance. Equipped with the all-new Boxer engine – with a maximum torque of 105 lb-ft, the reworked engine delivers more power than ever before. The variable camshaft control BMW ShiftCam is innovative technology that offers optimum performance in every engine speed range. During a relaxed cruise or a sporty tour, experience the pure thrill of riding along with the typical punch of the Boxer engine.",
       brand: "BMW",
     },
     {
