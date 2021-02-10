@@ -63,7 +63,7 @@ const main = async () => {
         "https://cdn1.polaris.com/globalassets/indian/2021/model/model-pages/scout-bobber/overview/gallery/modal/scout-bobber-04-modal-lg.jpg?v=84887de4&format=webp",
       description:
         "Stripped down and blacked-out with an aggressive stance and raw power, the Scout Bobber is a modern take on the iconic bobber style.",
-      price: "11000",
+      price: "11500",
       brand: "Indian",
     },
   ];
