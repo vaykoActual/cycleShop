@@ -7,7 +7,7 @@ import { getMotorcycles } from "./services/products";
 
 function App() {
   const [user, setUser] = useState(null)
-  const [products, setProducts] = useState()
+  const [products, setProducts] = useState([])
   useEffect(() => {
     const fetchUser = async () => {
       const user = await verifyUser()
