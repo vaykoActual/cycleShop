@@ -66,6 +66,26 @@ const main = async () => {
       price: "11000",
       brand: "Indian",
     },
+    {
+      name: "2021 R nineT Scrambler",
+      imgURL: "https://cdp.azureedge.net/products/USA/BM/2020/MC/STREETSTD/R_NINET_SCRAMBLER/50/STEREO_METALLIC_MATT/2000000001.JPG",
+      description: "The R nineT Scrambler knows no conventions: rough, unadapted, individual. Its handling is balanced and unique. With the boxer, you can ride around with your head held high, it is available for every spontaneity. And the typical Scrambler look together with the relaxed seating position makes a lot of difference – and above all is a lot of fun. Design your R nineT Scrambler so that it fits perfectly into your life. No matter what the others say. Just typical #Soulfuel.",
+      price: "13,495",
+      brand: "BMW",
+    },
+    {
+      name: "THE BMW R 1250 R",
+      imgURL: "https://mcn-images.bauersecure.com/PageFiles/672103/bmw-r1250r-1.jpg",
+      description: "The R 1250 R is designed for a dynamic appearance. Equipped with the all-new Boxer engine – with a maximum torque of 105 lb-ft, the reworked engine delivers more power than ever before. The variable camshaft control BMW ShiftCam is innovative technology that offers optimum performance in every engine speed range. During a relaxed cruise or a sporty tour, experience the pure thrill of riding along with the typical punch of the Boxer engine."
+      brand: "BMW",
+    },
+    {
+      name: "2021 R 18 Classic",
+      imgURL: "https://lh3.googleusercontent.com/proxy/Qf0szrXP1OmvR_sXcrwY1UOkcMAvhNZ81O7GnQ-LWNKfoi_XA6Dzo3QYw3ck_iU5Mx792pnCI4Bq8s9FNZTRQtr9nvwPo9odx5UeeyRh0_Mi2l8FEg-Mg21yAArn9kIoz15iyOah1p3oWqm5407rVWF9_F9jd9Oze5qu63ooCrp1od5NYpHgmlbLshdGiQ0uL2NOEgTrnJJh_SPO1Gl10kgU-7xQJtWZ-WL9fg",
+      description: "The R 18 Classic is a modern cruiser with a nostalgic sense of BMW design. It reminds one of the first BMW cruisers suitable for touring. It also invokes timeless marks of our motorcycle history, such as with the white double pinstripe found on the R 18 Classic First Edition. The heart of the machine is obviously the boxer engine with the most displacement we have ever built. It is designed for relaxing tours and pure enjoyment.",
+      price: "19,495",
+      brand: "BMW",
+    }
   ];
 
   await Product.insertMany(motorcycles);
