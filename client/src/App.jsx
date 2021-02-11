@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { verifyUser } from "./services/users";
 import { Route, Switch, Redirect } from "react-router-dom";
 import { getMotorcycles } from "./services/products";
+import Brand from "./screens/Brand/Brand";
 
 function App() {
   const [user, setUser] = useState(null);
@@ -27,6 +28,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home user={user} products={products} />
+        </Route>
+        <Route path="/brand/Harley Davidson">
+          <Brand user={user} products={products} />
         </Route>
       </Switch>
     </div>
