@@ -1,4 +1,4 @@
-# project3
+# cycleShop
 
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
@@ -37,7 +37,7 @@
     <img src="https://st.automobilemag.com/uploads/sites/11/2017/01/The-Race-of-Gentlemen-05.jpg" alt="Logo" width="280" height="180">
   </a>
 
-  <h3 align="center"><strong>project3</strong></h3>
+  <h3 align="center"><strong>cycleShop</strong></h3>
 
   <p align="center">
     project3 is a MERN stack, motorcycle exchange app.
@@ -186,37 +186,37 @@ Flow-chart- https://ibb.co/GP3nsL9
 
 
 ## Web Wire frames: 
-
+### Home Screen:
 ![Home-Web](https://user-images.githubusercontent.com/76179998/107698328-63274b80-6c82-11eb-852a-8b58a13b8a5e.png)
-
+### Brand Screen:
 ![Brand-Web 1920](https://user-images.githubusercontent.com/76179998/107698469-9669da80-6c82-11eb-86c0-d938d7915959.png)
 
-
+### Product/Edit/Delete Screen:
 ![Product, edit, delete, MANAGE -Web](https://user-images.githubusercontent.com/76179998/107698426-88b45500-6c82-11eb-9dc3-4c76c11ff18a.png)
-
+### Contact Screen:
 ![Contact-Web 1920 – 1](https://user-images.githubusercontent.com/76179998/107698524-aa154100-6c82-11eb-8913-f4f047bad384.png)
-
+### Sign In Screen:
 ![Sign In-Web 1920](https://user-images.githubusercontent.com/76179998/107698576-be593e00-6c82-11eb-82b4-997e15aa9e57.png)
-
+### Sign Up Screen:
 ![Sign Up-Web 1920 – 1](https://user-images.githubusercontent.com/76179998/107698610-cadd9680-6c82-11eb-8e72-01efb265991e.png)
-
+### Sell Screen:
 ![Sell-Web 1920](https://user-images.githubusercontent.com/76179998/107698653-d9c44900-6c82-11eb-8e63-018079eeb941.png)
 
 ## Mobile Wire Frames:
 
-
+### Mobile Home Screen:
 ![Home-Web](https://user-images.githubusercontent.com/76179998/107698814-227c0200-6c83-11eb-9175-57e524533902.png)
-
+### Mobile Brand Screen:
 ![Brand-Web 1920](https://user-images.githubusercontent.com/76179998/107698840-2b6cd380-6c83-11eb-980b-3a0b678d8801.png)
-
+### Mobile Product/Edit/Delete Screen:
 ![Product, edit, delete, MANAGE -Web](https://user-images.githubusercontent.com/76179998/107698865-36276880-6c83-11eb-8411-0119b84aeb60.png)
-
+### Mobile Contact Screen:
 ![Contact-Web 1920 – 1](https://user-images.githubusercontent.com/76179998/107698902-45a6b180-6c83-11eb-89a9-55c9ec7a935b.png)
-
+### Mobile Sign In Screen:
 ![Sign In-Web 1920](https://user-images.githubusercontent.com/76179998/107698925-4f301980-6c83-11eb-85ae-205b736c06bf.png)
-
+### Mobile Sign Up Screen:
 ![Sign Up-Web 1920 – 1](https://user-images.githubusercontent.com/76179998/107698959-59eaae80-6c83-11eb-88b7-926f91adc7dc.png)
-
+### Mobile Sell Screen:
 ![Sell-Web 1920](https://user-images.githubusercontent.com/76179998/107698999-6838ca80-6c83-11eb-81ad-187402bec5ba.png)
 
 
