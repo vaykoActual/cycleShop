@@ -100,7 +100,7 @@ const main = async () => {
     },
     {
       name: "2021 R 18 Classic",
-      imgURL: "https://lh3.googleusercontent.com/proxy/Qf0szrXP1OmvR_sXcrwY1UOkcMAvhNZ81O7GnQ-LWNKfoi_XA6Dzo3QYw3ck_iU5Mx792pnCI4Bq8s9FNZTRQtr9nvwPo9odx5UeeyRh0_Mi2l8FEg-Mg21yAArn9kIoz15iyOah1p3oWqm5407rVWF9_F9jd9Oze5qu63ooCrp1od5NYpHgmlbLshdGiQ0uL2NOEgTrnJJh_SPO1Gl10kgU-7xQJtWZ-WL9fg",
+      imgURL: "https://cdn.motor1.com/images/mgl/7xpWp/s3/2021-bmw-r-18-classic-beauty-profile-left.webp",
       description: "The R 18 Classic is a modern cruiser with a nostalgic sense of BMW design. It reminds one of the first BMW cruisers suitable for touring. It also invokes timeless marks of our motorcycle history, such as with the white double pinstripe found on the R 18 Classic First Edition. The heart of the machine is obviously the boxer engine with the most displacement we have ever built. It is designed for relaxing tours and pure enjoyment.",
       price: "19,495",
       brand: "BMW",
