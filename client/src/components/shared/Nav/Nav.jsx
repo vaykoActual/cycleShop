@@ -8,12 +8,25 @@ function Nav() {
       {/* <Search /> */}
       <div className="nav-search">Search</div>
       <div className="nav-navlinks-container">
-        <NavLink className="nav-navlinks-item" to="#">SHOP</NavLink>
-        <NavLink className="nav-navlinks-item" to="#">SELL</NavLink>
-        <NavLink className="nav-navlinks-item" to="#">LEARN MORE</NavLink>
-        <NavLink className="nav-navlinks-item" to="#">CONTACT</NavLink>
-        <NavLink className="nav-navlinks-item" to="#">Login</NavLink>
-        <NavLink className="nav-navlinks-item" to="#">Logout</NavLink>
+        <NavLink className="nav-navlinks-item" to="#">
+          Harley Davidson
+        </NavLink>
+        <NavLink className="nav-navlinks-item" to="#">
+          Ducati
+        </NavLink>
+        <NavLink className="nav-navlinks-item" to="#">
+          Yamaha
+        </NavLink>
+        <NavLink className="nav-navlinks-item" to="#">
+          Arch
+        </NavLink>
+        <NavLink className="nav-navlinks-item" to="#">
+          BMW
+        </NavLink>
+        <NavLink className="nav-navlinks-item" to="#">
+          Account
+        </NavLink>
+        <button>hamburger</button>
       </div>
     </div>
   );

@@ -1,22 +1,15 @@
 import Nav from "../Nav/Nav.jsx";
-import MainImage from "../MainImage/MainImage.jsx";
-import BrandLinks from "../BrandLinks/BrandLinks.jsx";
 import "./Layout.css";
+import Footer from "../Footer/Footer";
 
-function Layout(props){
-
+function Layout(props) {
   return (
     <div className="layout-container">
-        <Nav user={props.user}/>
-        <MainImage />
-        <BrandLinks />
-        <div className="layout-children">
-            {props.children}
-        </div>
-        
-        {/* <Footer /> */}
+      <Nav user={props.user} />
+      {props.children}
+      <Footer />
     </div>
-  )
+  );
 }
 
 export default Layout;

@@ -1,0 +1,18 @@
+.motorcycle-container img {
+  display: inline-flex;
+  flex-flow: wrap;
+  max-width: 300px;
+  max-height: 300px;
+  margin: 10px;
+}
+.brands-image img {
+  max-width: 500px;
+  max-height: auto;
+  margin: 10px;
+}
+.brands-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
