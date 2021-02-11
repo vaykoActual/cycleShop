@@ -58,7 +58,7 @@ const main = async () => {
       brand: "Yamaha",
     },
     {
-      name: "ARCH METHODI43",
+      name: "ARCH METHOD143",
       imgURL:
         "https://www.archmotorcycle.com/assets/images/method-side-min.jpg",
       description:
@@ -86,25 +86,32 @@ const main = async () => {
     },
     {
       name: "2021 R nineT Scrambler",
-      imgURL: "https://cdp.azureedge.net/products/USA/BM/2020/MC/STREETSTD/R_NINET_SCRAMBLER/50/STEREO_METALLIC_MATT/2000000001.JPG",
-      description: "The R nineT Scrambler knows no conventions: rough, unadapted, individual. Its handling is balanced and unique. With the boxer, you can ride around with your head held high, it is available for every spontaneity. And the typical Scrambler look together with the relaxed seating position makes a lot of difference – and above all is a lot of fun. Design your R nineT Scrambler so that it fits perfectly into your life. No matter what the others say. Just typical #Soulfuel.",
+      imgURL:
+        "https://cdp.azureedge.net/products/USA/BM/2020/MC/STREETSTD/R_NINET_SCRAMBLER/50/STEREO_METALLIC_MATT/2000000001.JPG",
+      description:
+        "The R nineT Scrambler knows no conventions: rough, unadapted, individual. Its handling is balanced and unique. With the boxer, you can ride around with your head held high, it is available for every spontaneity. And the typical Scrambler look together with the relaxed seating position makes a lot of difference – and above all is a lot of fun. Design your R nineT Scrambler so that it fits perfectly into your life. No matter what the others say. Just typical #Soulfuel.",
       price: "13,495",
       brand: "BMW",
     },
     {
       name: "THE BMW R 1250 R",
-      imgURL: "https://mcn-images.bauersecure.com/PageFiles/672103/bmw-r1250r-1.jpg",
-      description: "The R 1250 R is designed for a dynamic appearance. Equipped with the all-new Boxer engine – with a maximum torque of 105 lb-ft, the reworked engine delivers more power than ever before. The variable camshaft control BMW ShiftCam is innovative technology that offers optimum performance in every engine speed range. During a relaxed cruise or a sporty tour, experience the pure thrill of riding along with the typical punch of the Boxer engine.",
+      imgURL:
+        "https://mcn-images.bauersecure.com/PageFiles/672103/bmw-r1250r-1.jpg",
+      description:
+        "The R 1250 R is designed for a dynamic appearance. Equipped with the all-new Boxer engine – with a maximum torque of 105 lb-ft, the reworked engine delivers more power than ever before. The variable camshaft control BMW ShiftCam is innovative technology that offers optimum performance in every engine speed range. During a relaxed cruise or a sporty tour, experience the pure thrill of riding along with the typical punch of the Boxer engine.",
       price: "14,495",
       brand: "BMW",
     },
     {
       name: "2021 R 18 Classic",
-      imgURL: "https://cdn.motor1.com/images/mgl/7xpWp/s3/2021-bmw-r-18-classic-beauty-profile-left.webp",
-      description: "The R 18 Classic is a modern cruiser with a nostalgic sense of BMW design. It reminds one of the first BMW cruisers suitable for touring. It also invokes timeless marks of our motorcycle history, such as with the white double pinstripe found on the R 18 Classic First Edition. The heart of the machine is obviously the boxer engine with the most displacement we have ever built. It is designed for relaxing tours and pure enjoyment.",
+      imgURL:
+        "https://cdn.motor1.com/images/mgl/7xpWp/s3/2021-bmw-r-18-classic-beauty-profile-left.webp",
+      description:
+        "The R 18 Classic is a modern cruiser with a nostalgic sense of BMW design. It reminds one of the first BMW cruisers suitable for touring. It also invokes timeless marks of our motorcycle history, such as with the white double pinstripe found on the R 18 Classic First Edition. The heart of the machine is obviously the boxer engine with the most displacement we have ever built. It is designed for relaxing tours and pure enjoyment.",
       price: "19,495",
       brand: "BMW",
-    },{
+    },
+    {
       name: "Diavel 1260",
       imgURL:
         "https://media.ducati.com/images/previews/dvl2/dvl1260/dvl1260-nmb-21-light.png",
@@ -112,7 +119,8 @@ const main = async () => {
         "The new Diavel is built around the Testastretta DVT 1262 engine, a beacon of power, beauty, and sophistication. Its 157 hp translate to unbelievable acceleration and pick-up, while the flat and consistent torque curve low rpm allows steady and easy to handle delivery. The Ride by Wire (RbW) control matched with three Riding Modes and three Power Modes allows personalized engine responsiveness. A true beauty, as far as mechanics and design go, and a real game-changer on the road.",
       price: "20,295",
       brand: "Ducati",
-    },{
+    },
+    {
       name: "1100 Sport Pro",
       imgURL:
         "https://scramblerducati.com/wp-content/uploads/2020/01/Scrambler-1100-sport-Pro01-1920x1280.jpg",
@@ -120,7 +128,8 @@ const main = async () => {
         "The engine of the Ducati Scrambler 1100 Sport PRO is an air-and oil-cooled, 1079 cm³, two-valve L-twin engine with EURO 5 approval. It has a bore of 98 mm and a stroke of 71.5 mm and favours smooth acceleration at all rpm and ease of handling. The Desmodue engine of the Scrambler 1100 Sport PRO has lightweight crankcases and machined aluminium clutch and alternator covers. The two belt covers are also made of aluminium and they are also machined to enhance the aesthetics.",
       price: "15,495",
       brand: "Ducati",
-    },{
+    },
+    {
       name: "XDiavel",
       imgURL:
         "https://images.ctfassets.net/x7j9qwvpvr5s/4cofY2S9CgMemeCwOS0aOS/6973bc16b929e9acbca2f853f9958ae1/XDiavel-Matt-Liquid-Concrete-Grey-MY19-01-Model-Preview-1050x650.png",
