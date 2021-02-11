@@ -29,7 +29,7 @@ function App() {
         <Route exact path="/">
           <Home user={user} products={products} />
         </Route>
-        <Route path="/brand/Harley Davidson">
+        <Route path="/brand/:id">
           <Brand user={user} products={products} />
         </Route>
       </Switch>
