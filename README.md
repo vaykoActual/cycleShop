@@ -178,14 +178,48 @@ module.exports = mongoose.model('users', User)
 
 <!-- ROADMAP -->
 ## Roadmap
-<<<<<<< HEAD
-
-=======
 Styling - https://ibb.co/2WV5x7k
-Flow-chart- https://ibb.co/GP3nsL9
->>>>>>> a11272ee807bcd360928b0d4dacf1c5b162d9952
+![Screen Shot 2021-02-11 at 4 11 15 PM](https://user-images.githubusercontent.com/76179998/107699277-dc736e00-6c83-11eb-8c88-c2cb2eecf6e5.png)
 
-![Screen Shot 2021-02-09 at 11 17 14 AM](https://user-images.githubusercontent.com/76179998/107393247-94f4b280-6ac8-11eb-8648-3597426035a5.png)
+Flow-chart- https://ibb.co/GP3nsL9
+![Screen Shot 2021-02-11 at 4 12 57 PM](https://user-images.githubusercontent.com/76179998/107699396-088eef00-6c84-11eb-94ab-91e6522503c0.png)
+
+
+## Web Wire frames: 
+
+![Home-Web](https://user-images.githubusercontent.com/76179998/107698328-63274b80-6c82-11eb-852a-8b58a13b8a5e.png)
+
+![Brand-Web 1920](https://user-images.githubusercontent.com/76179998/107698469-9669da80-6c82-11eb-86c0-d938d7915959.png)
+
+
+![Product, edit, delete, MANAGE -Web](https://user-images.githubusercontent.com/76179998/107698426-88b45500-6c82-11eb-9dc3-4c76c11ff18a.png)
+
+![Contact-Web 1920 – 1](https://user-images.githubusercontent.com/76179998/107698524-aa154100-6c82-11eb-8913-f4f047bad384.png)
+
+![Sign In-Web 1920](https://user-images.githubusercontent.com/76179998/107698576-be593e00-6c82-11eb-82b4-997e15aa9e57.png)
+
+![Sign Up-Web 1920 – 1](https://user-images.githubusercontent.com/76179998/107698610-cadd9680-6c82-11eb-8e72-01efb265991e.png)
+
+![Sell-Web 1920](https://user-images.githubusercontent.com/76179998/107698653-d9c44900-6c82-11eb-8e63-018079eeb941.png)
+
+## Mobile Wire Frames:
+
+
+![Home-Web](https://user-images.githubusercontent.com/76179998/107698814-227c0200-6c83-11eb-9175-57e524533902.png)
+
+![Brand-Web 1920](https://user-images.githubusercontent.com/76179998/107698840-2b6cd380-6c83-11eb-980b-3a0b678d8801.png)
+
+![Product, edit, delete, MANAGE -Web](https://user-images.githubusercontent.com/76179998/107698865-36276880-6c83-11eb-8411-0119b84aeb60.png)
+
+![Contact-Web 1920 – 1](https://user-images.githubusercontent.com/76179998/107698902-45a6b180-6c83-11eb-89a9-55c9ec7a935b.png)
+
+![Sign In-Web 1920](https://user-images.githubusercontent.com/76179998/107698925-4f301980-6c83-11eb-85ae-205b736c06bf.png)
+
+![Sign Up-Web 1920 – 1](https://user-images.githubusercontent.com/76179998/107698959-59eaae80-6c83-11eb-88b7-926f91adc7dc.png)
+
+![Sell-Web 1920](https://user-images.githubusercontent.com/76179998/107698999-6838ca80-6c83-11eb-81ad-187402bec5ba.png)
+
+
 
 
 <!-- CONTRIBUTING -->
