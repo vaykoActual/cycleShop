@@ -1,4 +1,4 @@
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, NavLink } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import "./Brand.css";
 import Layout from "../../components/shared/Layout/Layout";
@@ -18,35 +18,48 @@ function Brand(props) {
     }
     brandImg()
   }, [])
-console.log(img)
+  console.log(props.products)
   return (
     <div>
       <Layout>
         <div>
           <img src={img} alt={id} />
         </div>
-      <div>
-      {props.products.map((product) => {
-        if (product.brand === id) {
-          return (
-            <div className="brand-container">
-               <div>
-                {product.name}
-              </div>
-               <div>
-                <img src={product.imgURL} alt={product.name}/>
-              </div>
-              <div>
-                {product.description}
-              </div>
-              <div>
-              {product.price}
-              </div>
-            </div>
-          )
-        }
-      })}
-      </div>
+        <div>
+          {props.products.map((product) => {
+            if (product.brand === id) {
+              return (
+                <div className="brand-container">
+
+                  <div>
+                    {product.name}
+                  </div>
+
+                  <div>
+                    <img src={product.imgURL} alt={product.name} />
+                  </div>
+
+                  {/* <div>
+                    {product.description}
+                  </div> */}
+
+                  <div>
+                    {product.price}
+                  </div>
+
+                  <div>
+                    <NavLink to={`/manage/${product._id}`} > Manage</NavLink>
+                  </div>
+
+                  <div>
+                  <NavLink to="/sell"> sell</NavLink>
+                  </div>
+
+                </div>
+              )
+            }
+          })}
+        </div>
       </Layout>
     </div>
   );

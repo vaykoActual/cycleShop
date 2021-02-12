@@ -5,6 +5,10 @@ import { verifyUser } from "./services/users";
 import { Route, Switch, Redirect } from "react-router-dom";
 import { getMotorcycles } from "./services/products";
 import Brand from "./screens/Brand/Brand";
+import MotorcycleDetail from "./screens/MotorcycleDetail/MotorcycleDetail"
+import MotorcycleEdit from "./screens/MotorcycleEdit/MotorcycleEdit";
+import MotorcycleSell from "./screens/MotorcycleSell/MotorcycleSell";
+import Contact from "./screens/Contact/Contact";
 
 function App() {
   const [user, setUser] = useState(null);
@@ -32,6 +36,20 @@ function App() {
         <Route path="/brand/:id">
           <Brand user={user} products={products} />
         </Route>
+        <Route path="/manage/:id">
+          <MotorcycleDetail />
+        </Route>
+        <Route path="/motorcycleedit/:id" >
+          <MotorcycleEdit user={user} products={products} />
+        </Route>
+        <Route path="/sell">
+          <MotorcycleSell user={user} />
+        </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
+
+
       </Switch>
     </div>
   );
