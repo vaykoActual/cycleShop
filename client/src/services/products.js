@@ -21,6 +21,7 @@ export const getMotorcycle = async (id) => {
 export const createMotorcycle = async (product) => {
   try {
     const response = await api.post("/motorcycles", product);
+    console.log(product)
     return response.data;
   } catch (error) {
     throw error;

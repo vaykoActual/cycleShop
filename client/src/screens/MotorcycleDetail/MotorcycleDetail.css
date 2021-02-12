@@ -1,0 +1,7 @@
+.motorcycleDetail-container img {
+    display: inline-flex;
+    flex-flow: wrap;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 10px;
+}

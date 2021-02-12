@@ -12,7 +12,7 @@ const Brands = (props) => {
         />
         <h1>Arch Method 143</h1>
         <NavLink to="/brand/Arch"> shop </NavLink>
-        <NavLink to="#"> sell</NavLink>
+        <NavLink to="/sell"> sell</NavLink>
       </div>
 
       <div>
@@ -22,7 +22,7 @@ const Brands = (props) => {
           alt="2021 Road Glide"
         />
         <NavLink to="/brand/Harley Davidson"> shop </NavLink>
-        <NavLink to="#"> sell</NavLink>
+        <NavLink to="/sell"> sell</NavLink>
       </div>
       <div>
         <h1>YZF R1M</h1>
@@ -31,7 +31,7 @@ const Brands = (props) => {
           alt="YZF R1M"
         />
         <NavLink to="/brand/Yamaha"> shop </NavLink>
-        <NavLink to="#"> sell</NavLink>
+        <NavLink to="/sell"> sell</NavLink>
       </div>
       <div>
         <h1>2021 R nineT Scrambler</h1>
@@ -40,7 +40,7 @@ const Brands = (props) => {
           alt="2021 R nineT Scrambler"
         />
         <NavLink to="/brand/BMW"> shop </NavLink>
-        <NavLink to="#"> sell</NavLink>
+        <NavLink to="/sell"> sell</NavLink>
       </div>
       <div>
         <h1>DIAVEL 1260</h1>
@@ -49,7 +49,7 @@ const Brands = (props) => {
           alt="DIAVEL 1260"
         />
         <NavLink to="/brand/Ducati"> shop </NavLink>
-        <NavLink to="#"> sell</NavLink>
+        <NavLink to="/sell"> sell</NavLink>
       </div>
     </div>
   );

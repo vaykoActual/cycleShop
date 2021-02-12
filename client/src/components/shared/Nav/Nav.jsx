@@ -4,7 +4,9 @@ import "./Nav.css";
 function Nav() {
   return (
     <div className="nav-container">
-      <div className="nav-logo">LOGO</div>
+      <div className="nav-logo">
+        <NavLink to="/"><h1>Cycle Shop</h1></NavLink>
+      </div>
       {/* <Search /> */}
       <div className="nav-search">Search</div>
       <div className="nav-navlinks-container">
@@ -26,7 +28,9 @@ function Nav() {
         <NavLink className="nav-navlinks-item" to="#">
           Account
         </NavLink>
-        <button>hamburger</button>
+        <NavLink to="/contact"> Contact
+            </NavLink>
+
       </div>
     </div>
   );
