@@ -108,7 +108,7 @@ const main = async () => {
         "https://www.motorcycle.com/blog/wp-content/uploads/2020/04/040320-P90386717-2021-BMW-R18.jpg",
       description:
         "The R 18 Classic is a modern cruiser with a nostalgic sense of BMW design. It reminds one of the first BMW cruisers suitable for touring. It also invokes timeless marks of our motorcycle history, such as with the white double pinstripe found on the R 18 Classic First Edition. The heart of the machine is obviously the boxer engine with the most displacement we have ever built. It is designed for relaxing tours and pure enjoyment.",
-      price: "19,495",
+      price: "19,499",
       brand: "BMW",
     },
     {
