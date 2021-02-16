@@ -33,7 +33,7 @@ const main = async () => {
     {
       name: "YZF-R1M",
       imgURL:
-        "https://yamaha.scdn5.secure.raxcdn.com/library/img.jpg?id=5f4be2602a0ab63a745a4bac&w=1600",
+        "https://2yrh403fk8vd1hz9ro2n46dd-wpengine.netdna-ssl.com/wp-content/uploads/2019/07/2020-Yamaha-YZF-R1M-First-Look-sport-motorcycle-16.jpg",
       description:
         "Featuring next‑generation R‑Series styling, sophisticated electronic control, supersport braking and suspension performance and a high‑performance crossplane engine.",
       price: "17000",
@@ -69,7 +69,7 @@ const main = async () => {
     {
       name: "ARCH KRGT-1",
       imgURL:
-        "https://www.archmotorcycle.com/assets/images/home-krgt-1-side-2-min.jpg",
+        "https://www.archmotorcycle.com/assets/images/krgt-1-bosch-white-1-min.jpg",
       description:
         "ARCH KRGT-1 The KRGT-1 is a custom production American performance cruiser. Designed to be ridden aggressively while also being comfortable for long distances. 2020 improvements include design enhancements to the bodywork, updated front suspension and brakes.Each KRGT-1 is custom tailored to provide personalized ergonomics and curated fit and finishes, making every motorcycle unique to its owner.",
       price: "72500",
@@ -87,7 +87,7 @@ const main = async () => {
     {
       name: "2021 R nineT Scrambler",
       imgURL:
-        "https://cdp.azureedge.net/products/USA/BM/2020/MC/STREETSTD/R_NINET_SCRAMBLER/50/STEREO_METALLIC_MATT/2000000001.JPG",
+        "https://www.totalmotorcycle.com/wp-content/uploads/2020/10/2021-BMW-R-nineT-Scrambler5-1024x724.jpg",
       description:
         "The R nineT Scrambler knows no conventions: rough, unadapted, individual. Its handling is balanced and unique. With the boxer, you can ride around with your head held high, it is available for every spontaneity. And the typical Scrambler look together with the relaxed seating position makes a lot of difference – and above all is a lot of fun. Design your R nineT Scrambler so that it fits perfectly into your life. No matter what the others say. Just typical #Soulfuel.",
       price: "13,495",
@@ -96,7 +96,7 @@ const main = async () => {
     {
       name: "THE BMW R 1250 R",
       imgURL:
-        "https://mcn-images.bauersecure.com/PageFiles/672103/bmw-r1250r-1.jpg",
+        "https://2yrh403fk8vd1hz9ro2n46dd-wpengine.netdna-ssl.com/wp-content/uploads/2018/11/2019-bmw-r-1250-gs-adventure-first-look-23.jpg",
       description:
         "The R 1250 R is designed for a dynamic appearance. Equipped with the all-new Boxer engine – with a maximum torque of 105 lb-ft, the reworked engine delivers more power than ever before. The variable camshaft control BMW ShiftCam is innovative technology that offers optimum performance in every engine speed range. During a relaxed cruise or a sporty tour, experience the pure thrill of riding along with the typical punch of the Boxer engine.",
       price: "14,495",
