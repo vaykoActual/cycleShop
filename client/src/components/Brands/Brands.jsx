@@ -5,12 +5,13 @@ const Brands = (props) => {
   return (
     <div className="brands-image">
       <div>
+        <h1>Arch Method 143</h1>
         <img
           className="main-image-img"
           src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.archmotorcycle.com%2Fassets%2Fimages%2Fmethod-side-min.jpg&f=1&nofb=1"
           alt="Arch Method 143"
         />
-        <h1>Arch Method 143</h1>
+
         <NavLink to="/brand/Arch"> shop </NavLink>
         <NavLink to="/sell"> sell</NavLink>
       </div>
