@@ -1,18 +1,114 @@
-.motorcycle-container img {
-  display: inline-flex;
-  flex-flow: wrap;
-  max-width: 300px;
-  max-height: 300px;
-  margin: 10px;
+.brands-container-arch,
+.brands-container-harley,
+.brands-container-yamaha,
+.brands-container-bmw,
+.brands-container-ducati {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-column: 1;
+  width: 100vw;
+  /* height: 736px; */
 }
-.brands-image img {
-  max-width: 500px;
-  max-height: auto;
-  margin: 10px;
+.brands-container-harley,
+.brands-container-bmw {
+  background-color: #c5baaf;
+  background-image: linear-gradient(to top, #c5baaf, #E3DDD8, #FFFFFF 30%);
 }
-.brands-image {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.brands-container-yamaha,
+.brands-container-ducati {
+  background-color: #424B54;
+  background-image: linear-gradient(to top, #424B54, #93979b, #FFFFFF 25%);
+}
+
+.brands-container-arch {
+  /* grid-template-rows: repeat(3, 245.33px); */
+}
+/* 
+.brands-container-harley {
+
+}
+.brands-container-yamaha {
+
+}
+.brands-container-bmw {
+
+}
+.brands-container-ducati {
+
+} */
+
+.brands-image-harley,
+.brands-image-yamaha,
+.brands-image-bmw,
+.brands-image-ducati {
+  width: 800px;
+  grid-column: 3;
+}
+.brands-image-arch {
+  width: 100vw;
+  /* height: 768px; */
+  grid-column: 1/6;
+  grid-row: 1 /span 4;
+  /* clip-path: inset(0 85px); */
+  /* transform: scale(1.5); */
+  /* object-fit: none; */
+  /* object-position: 50% 50%; */
+  /* object-position: 0 100px; */
+
+  
+}
+
+.brands-image-harley {
+}
+.brands-image-yamaha {
+  /* width: 700px;
+  clip-path: inset(50px 0 30px 0); */
+}
+.brands-image-bmw {
+}
+.brands-image-ducati {
+}
+.brands-shop,
+.brands-sell {
+  border-radius: 25px;
+  width: 80px;
+  grid-column: 3;
+  grid-row: 3;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  font-weight: 500;
+}
+.brands-name {
+  display: grid;
+  grid-column: 3;
+  grid-row: 1;
+  align-self: center;
+  justify-self: center;
+}
+.brands-name-arch {
+  display: grid;
+  grid-column: 4;
+  grid-row: 1;
+  align-self: center;
+  justify-self: center;
+}
+.brands-shop {
+  margin-right: 110px;
+  background-color: #262C31;
+  color: #FFFFFF;
+}
+.brands-sell {
+  margin-left: 110px;
+  background-color: #E2E2E3;
+  color: #000000;
+}
+@media only screen and (max-width: 800px) {
+  .brands-image-harley,
+  .brands-image-yamaha,
+  .brands-image-bmw,
+  .brands-image-ducati {
+    width: 300px;
+  }
 }
