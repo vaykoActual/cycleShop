@@ -1,10 +1,10 @@
 import Layout from '../../components/shared/Layout/Layout'
 import './Contact.css'
 
-function Contact(params) {
+function Contact(props) {
     return (
         <div>
-            <Layout>
+            <Layout user={props.user}>
                 <div id="team-photo">
                     <img  src="https://miro.medium.com/max/700/1*dkKclsD3PzSVqTAkO9VI9w.jpeg" />
                 </div>

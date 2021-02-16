@@ -3,12 +3,14 @@ import './MotorcycleSell.css'
 import { Redirect } from 'react-router-dom'
 import Layout from '../../components/shared/Layout/Layout'
 import { createMotorcycle } from '../../services/products'
+import morgan from 'morgan'
+
 
 
 function MotorcycleSell(props) {
 
     const [motorcycle, setMotorcycle] = useState({
-        brand: '',
+        brand: 'Arch',
         description: '',
         imgURL: '',
         name: '',
@@ -34,6 +36,8 @@ function MotorcycleSell(props) {
     if (isCreated) {
         return <Redirect to='/' />
     }
+    console.log(motorcycle)
+    // console.log(motorcycle.brand="sds")
     return (
         <Layout user={props.user}>
             <form className="create-form" onSubmit={handleSubmit}>
@@ -47,6 +51,13 @@ function MotorcycleSell(props) {
                     autoFocus
                     onChange={handleChange}
                 />
+                <select name='brand' value={motorcycle.brand} onChange={handleChange} >
+                    <option value={"Arch"}  >Arch</option>
+                    <option value={"BMW"}  >BMW</option>
+                    <option value={"Ducati"}   >Ducati</option>
+                    <option value={"Yamaha"}  >Yamaha</option>
+                    <option value={"Harley Davidson"}  >Harley Davidson</option>
+                </select>
                 <input
                     className="input-price"
                     placeholder='Price'

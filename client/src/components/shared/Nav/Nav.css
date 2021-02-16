@@ -1,0 +1,14 @@
+.nav-navlinks-container{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-logo{
+text-align: center;
+}
+.nav-search{
+    text-align: end;
+margin-bottom: 15px;
+}
+.nav-container{
+    margin: 30px;
+}

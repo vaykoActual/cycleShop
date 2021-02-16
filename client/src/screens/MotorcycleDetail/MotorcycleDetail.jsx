@@ -37,7 +37,7 @@ function MotorcycleDetail(props) {
 
     return (
         <div>
-            <Layout>
+            <Layout user={props.user}>
                 <div className="motorcycleDetail-container">
                     <div>
                         {motorcycle.brand === 'Arch' && <img src='https://www.archmotorcycle.com/assets/images/logo.png' />}
