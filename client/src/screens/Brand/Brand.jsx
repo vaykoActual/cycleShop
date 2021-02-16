@@ -21,7 +21,7 @@ function Brand(props) {
   console.log(props.products)
   return (
     <div>
-      <Layout>
+      <Layout user={props.user}>
         <div>
           <img src={img} alt={id} />
         </div>

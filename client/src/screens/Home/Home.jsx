@@ -7,7 +7,7 @@ const Home = (props) => {
   console.log(props.products);
   return (
     <div>
-      <Layout>
+      <Layout user={props.user} >
         <Brands />
         <div></div>
       </Layout>

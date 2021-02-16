@@ -1,0 +1,60 @@
+.danger {
+    background-color: brown;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.signup-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid blanchedalmond; */
+}
+
+.signup-container form label {
+    margin: 5px;
+    text-align: left;
+}
+
+.signup-container form input {
+    margin-bottom: 15px;
+    width: 200px;
+    height: auto;
+    background-color: rgb(211, 206, 206);
+    border-radius: 20px;
+}
+
+.signup-container form button {
+    width: 200px;
+    height: auto;
+    background-color: rgb(60, 60, 233);
+    color: white;
+    margin: 20px 0px 40px 0px;
+    border-radius: 20px;
+}
+
+.signup-or div {
+    margin: 20px;
+    text-align: center;
+}
+
+#signup-link {
+    border: 2px solid black;
+    width: 200px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+
+#link-none {
+    text-decoration: none;
+    color: black;
+}

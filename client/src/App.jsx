@@ -9,10 +9,14 @@ import MotorcycleDetail from "./screens/MotorcycleDetail/MotorcycleDetail"
 import MotorcycleEdit from "./screens/MotorcycleEdit/MotorcycleEdit";
 import MotorcycleSell from "./screens/MotorcycleSell/MotorcycleSell";
 import Contact from "./screens/Contact/Contact";
+import Account from "./screens/Account/Account";
+import SignUp from "./screens/SignUp/SignUp"
+import SignOut from './screens/SignOut/SignOut'
 
 function App() {
   const [user, setUser] = useState(null);
   const [products, setProducts] = useState([]);
+
   useEffect(() => {
     const fetchUser = async () => {
       const user = await verifyUser();
@@ -27,6 +31,8 @@ function App() {
   }, []);
 
   const clearUser = () => setUser(null);
+
+  console.log(user)
   return (
     <div>
       <Switch>
@@ -37,7 +43,7 @@ function App() {
           <Brand user={user} products={products} />
         </Route>
         <Route path="/manage/:id">
-          <MotorcycleDetail />
+          <MotorcycleDetail  user={user}/>
         </Route>
         <Route path="/motorcycleedit/:id" >
           <MotorcycleEdit user={user} products={products} />
@@ -46,13 +52,21 @@ function App() {
           <MotorcycleSell user={user} />
         </Route>
         <Route path="/contact">
-          <Contact />
+          <Contact user={user} />
         </Route>
-
-
+        <Route path="/account" >
+          <Account setUser={setUser} />
+        </Route>
+        <Route path="/signup" >
+          <SignUp setUser={setUser} />
+        </Route>
+        <Route path="/signout">
+          <SignOut setUser={setUser} clearUser={clearUser} />
+        </Route>
       </Switch>
     </div>
   );
 }
+
 
 export default App;
