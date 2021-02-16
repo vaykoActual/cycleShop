@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 function Footer() {
   return (
     <div>
-      <NavLink to="#">
+      <NavLink to="/contact">
         <button>contact</button>
       </NavLink>
     </div>

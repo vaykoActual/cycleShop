@@ -1,13 +1,11 @@
 .nav-container {
   display: grid;
-  position: fixed;
+  /* position: fixed; */
   width: 100vw;
-  background: transparent;
   grid-template-columns: 50px 50px 2fr 150px 72px 52px 60px 63px 2fr 50px 75px 50px 30px;
   grid-template-rows: 50px;
-  z-index: 5;
-
 }
+
 .nav-logo,
 .nav-navlinks-harley,
 .nav-navlinks-yamaha,
@@ -51,3 +49,4 @@
 .hamburger-menu {
   grid-column: 12/13;
 }
+
