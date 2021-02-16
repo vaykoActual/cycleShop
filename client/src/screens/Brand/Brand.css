@@ -1,13 +1,65 @@
 .brand-container img {
-  max-width: 500px;
+  max-width: 800px;
   max-height: auto;
-  margin: 10px;
+}
+.brand-container-logo {
+  display: flex;
+  width: 100vw;
+  padding: 240px;
+  background-color: #424B54;
+  background-image: linear-gradient(to top, #424B54, #93979b, #FFFFFF 25%);
+}
+.brand-logo {
+  display: flex;
+  width: 350px;
+  margin: auto;
 }
 
 .brand-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr 1fr;
+  grid-column: 1;
+  width: 100vw;
+
+  /* should be its applied to every other bike in the column */
+  background-color: #c5baaf;
+  background-image: linear-gradient(to top, #c5baaf, #E3DDD8, #FFFFFF 30%);
+}
+.brand-name,
+.brand-img,
+.brand-price {
+  grid-column: 3/4;
+  align-self: center;
+  justify-self: center;
+}
+.brand-name {
+  grid-row: 1/2;
+}
+.brand-img {
+  grid-row: 2/3;
+}
+.brand-price {
+  grid-row: 3/4
+}
+.brand-sell,
+.brand-manage {
+  border-radius: 25px;
+  width: 80px;
+  grid-column: 3;
+  grid-row: 4;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  font-weight: 500;
+}
+.brand-manage {
+  margin-right: 110px;
+  background-color: #262C31;
+  color: #FFFFFF;
+}
+.brand-sell {
+  margin-left: 110px;
+  background-color: #E2E2E3;
+  color: #000000;
 }
