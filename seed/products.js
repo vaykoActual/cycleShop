@@ -135,7 +135,7 @@ const main = async () => {
         "https://images.ctfassets.net/x7j9qwvpvr5s/4cofY2S9CgMemeCwOS0aOS/6973bc16b929e9acbca2f853f9958ae1/XDiavel-Matt-Liquid-Concrete-Grey-MY19-01-Model-Preview-1050x650.png",
       description:
         "Ducati enters the Cruiser world and does so in its very own way, representing the best of both worlds. The Ducati world: thrilling performance, sporty power, advanced electronics. The cruiser world: long, low, forward positioned footpegs, powerful torque even at low speeds, no compromise in terms of materals and finishes. The XDiavel is now available in the new color Matt Liquid Concrete Grey. ",
-      price: "20,995",
+      price: "20,999",
       brand: "Ducati",
     },
   ];
