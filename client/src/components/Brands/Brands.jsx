@@ -5,12 +5,13 @@ const Brands = (props) => {
   return (
     <div className="brands-image">
       <div>
+        <h1>Arch Method 143</h1>
         <img
           className="main-image-img"
-          src="https://www.highreshdwallpapers.com/wp-content/uploads/2014/04/Yamaha-Motorcycle-Desktop-Wallpaper.jpg"
-          alt="someText"
+          src="https://www.archmotorcycle.com/assets/images/method-side-min.jpg"
+          alt="Arch Method 143"
         />
-        <h1>Arch Method 143</h1>
+
         <NavLink to="/brand/Arch"> shop </NavLink>
         <NavLink to="/sell"> sell</NavLink>
       </div>
