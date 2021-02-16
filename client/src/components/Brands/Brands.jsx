@@ -7,8 +7,8 @@ const Brands = (props) => {
       <div>
         <img
           className="main-image-img"
-          src="https://www.highreshdwallpapers.com/wp-content/uploads/2014/04/Yamaha-Motorcycle-Desktop-Wallpaper.jpg"
-          alt="someText"
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.archmotorcycle.com%2Fassets%2Fimages%2Fmethod-side-min.jpg&f=1&nofb=1"
+          alt="Arch Method 143"
         />
         <h1>Arch Method 143</h1>
         <NavLink to="/brand/Arch"> shop </NavLink>

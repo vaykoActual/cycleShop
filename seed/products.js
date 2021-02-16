@@ -94,7 +94,7 @@ const main = async () => {
       brand: "BMW",
     },
     {
-      name: "THE BMW R 1250 R",
+      name: "THE BMW R 1250",
       imgURL:
         "https://mcn-images.bauersecure.com/PageFiles/672103/bmw-r1250r-1.jpg",
       description:
@@ -105,10 +105,11 @@ const main = async () => {
     {
       name: "2021 R 18 Classic",
       imgURL:
-        "https://cdn.motor1.com/images/mgl/7xpWp/s3/2021-bmw-r-18-classic-beauty-profile-left.webp",
+        "https://media.ducati.com/images/previews/dvl2/dvl1260/dvl1260-nmb-21-light.png",
+
       description:
         "The R 18 Classic is a modern cruiser with a nostalgic sense of BMW design. It reminds one of the first BMW cruisers suitable for touring. It also invokes timeless marks of our motorcycle history, such as with the white double pinstripe found on the R 18 Classic First Edition. The heart of the machine is obviously the boxer engine with the most displacement we have ever built. It is designed for relaxing tours and pure enjoyment.",
-      price: "19,495",
+      price: "19,499",
       brand: "BMW",
     },
     {
@@ -135,7 +136,7 @@ const main = async () => {
         "https://images.ctfassets.net/x7j9qwvpvr5s/4cofY2S9CgMemeCwOS0aOS/6973bc16b929e9acbca2f853f9958ae1/XDiavel-Matt-Liquid-Concrete-Grey-MY19-01-Model-Preview-1050x650.png",
       description:
         "Ducati enters the Cruiser world and does so in its very own way, representing the best of both worlds. The Ducati world: thrilling performance, sporty power, advanced electronics. The cruiser world: long, low, forward positioned footpegs, powerful torque even at low speeds, no compromise in terms of materals and finishes. The XDiavel is now available in the new color Matt Liquid Concrete Grey. ",
-      price: "20,999",
+      price: "20,995",
       brand: "Ducati",
     },
   ];
