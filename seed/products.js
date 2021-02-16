@@ -27,7 +27,7 @@ const main = async () => {
       imgURL:
         "https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2021/2021-low-rider-s/2021-low-rider-s-f20/2021-low-rider-s-f20-motorcycle.jpg?impolicy=myresize&rw=500",
       description: "A blacked-out, factory custom performance cruiser.",
-      price: "25000",
+      price: "15000",
       brand: "Harley Davidson",
     },
     {
@@ -36,7 +36,7 @@ const main = async () => {
         "https://yamaha.scdn5.secure.raxcdn.com/library/img.jpg?id=5f4be2602a0ab63a745a4bac&w=1600",
       description:
         "Featuring next‑generation R‑Series styling, sophisticated electronic control, supersport braking and suspension performance and a high‑performance crossplane engine.",
-      price: "26000",
+      price: "17000",
       brand: "Yamaha",
     },
     {
@@ -63,7 +63,7 @@ const main = async () => {
         "https://www.archmotorcycle.com/assets/images/method-side-min.jpg",
       description:
         "The ARCH/S&S Method 143ci (2343cc) power plant exhilarates with power and confidence. The largest, most powerful engine employed within an ARCH motorcycle expresses either the outer-limits of two wheeled performance or cultivates itself within the boundaries defined by it’s dual ride modes.",
-      price: "15000",
+      price: "85000",
       brand: "Arch",
     },
     {
@@ -72,7 +72,7 @@ const main = async () => {
         "https://www.archmotorcycle.com/assets/images/home-krgt-1-side-2-min.jpg",
       description:
         "ARCH KRGT-1 The KRGT-1 is a custom production American performance cruiser. Designed to be ridden aggressively while also being comfortable for long distances. 2020 improvements include design enhancements to the bodywork, updated front suspension and brakes.Each KRGT-1 is custom tailored to provide personalized ergonomics and curated fit and finishes, making every motorcycle unique to its owner.",
-      price: "12500",
+      price: "72500",
       brand: "Arch",
     },
     {
@@ -81,7 +81,7 @@ const main = async () => {
         "https://www.archmotorcycle.com/assets/images/home-1s-side-min.jpg",
       description:
         "The 1s is the first production single sided swing-arm motorcycle from ARCH. This new model is sport influenced with a more aggressive riding position while still keeping hold of its performance cruiser formulation.CNC Machined Aluminum and extensive use of Carbon Fiber flow within the lines of this elegant yet race inspired motorcycle. As with all ARCH motorcycles, the 1s can be custom tailored to its owner.",
-      price: "18500",
+      price: "68500",
       brand: "Arch",
     },
     {
