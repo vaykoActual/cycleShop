@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './MotorcycleSell.css'
+import './Sell.css'
 import { Redirect } from 'react-router-dom'
 import Layout from '../../components/shared/Layout/Layout'
 import { createMotorcycle } from '../../services/products'

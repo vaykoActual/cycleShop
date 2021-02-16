@@ -5,9 +5,9 @@ import { verifyUser } from "./services/users";
 import { Route, Switch, Redirect } from "react-router-dom";
 import { getMotorcycles } from "./services/products";
 import Brand from "./screens/Brand/Brand";
-import MotorcycleDetail from "./screens/MotorcycleDetail/MotorcycleDetail"
-import MotorcycleEdit from "./screens/MotorcycleEdit/MotorcycleEdit";
-import MotorcycleSell from "./screens/MotorcycleSell/MotorcycleSell";
+import Manage from "./screens/Manage/Manage"
+import Edit from "./screens/Edit/Edit";
+import Sell from "./screens/Sell/Sell";
 import Contact from "./screens/Contact/Contact";
 import Account from "./screens/Account/Account";
 import SignUp from "./screens/SignUp/SignUp"
@@ -43,13 +43,13 @@ function App() {
           <Brand user={user} products={products} />
         </Route>
         <Route path="/manage/:id">
-          <MotorcycleDetail  user={user}/>
+          <Manage user={user}/>
         </Route>
-        <Route path="/motorcycleedit/:id" >
-          <MotorcycleEdit user={user} products={products} />
+        <Route path="/edit/:id" >
+          <Edit user={user} products={products} />
         </Route>
         <Route path="/sell">
-          <MotorcycleSell user={user} />
+          <Sell user={user} />
         </Route>
         <Route path="/contact">
           <Contact user={user} />

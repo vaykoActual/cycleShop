@@ -1,48 +1,51 @@
-.brand-container img {
+.manage-container img {
   max-width: 800px;
   max-height: auto;
 }
-.brand-container-logo {
+.manage-container-logo {
   display: flex;
   width: 100vw;
   padding: 240px;
   background-color: #424b54;
   background-image: linear-gradient(to top, #424b54, #93979b, #ffffff 25%);
 }
-.brand-logo {
+.manage-logo {
   display: flex;
   width: 350px;
   margin: auto;
 }
 
-.brand-container {
+.manage-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
   grid-template-rows: 1fr 2fr 1fr 1fr;
   grid-column: 1;
   width: 100vw;
   background-color: #c5baaf;
   background-image: linear-gradient(to top, #c5baaf, #e3ddd8, #ffffff 30%);
 }
-.brand-name,
-.brand-img,
-.brand-price {
-  grid-column: 3/4;
-  align-self: center;
-  justify-self: center;
+
+.manage-img {
+	grid-column: 2/3;
+	grid-row: 2/3;
 }
-.brand-name {
-  grid-row: 1/2;
+.manage-name {
+	grid-column: 3/4;
+	grid-row: 1/2;
 }
-.brand-img {
-  grid-row: 2/3;
+.manage-description {
+	grid-column: 4/5;
+	grid-row: 2/3;
+	align-self: start;
 }
-.brand-price {
-  grid-row: 3/4;
+.manage-price {
+	grid-column: 4/5;
+	grid-row: 2/3;
+	align-self: center;
 }
-.brand-sell,
-.brand-manage {
-  border-radius: 25px;
+.manage-edit,
+.manage-delete {
+	border-radius: 25px;
   width: 80px;
   grid-column: 3;
   grid-row: 4;
@@ -51,12 +54,12 @@
   text-align: center;
   font-weight: 500;
 }
-.brand-manage {
-  margin-right: 110px;
+.manage-edit {
+	margin-right: 110px;
   background-color: #262c31;
   color: #ffffff;
 }
-.brand-sell {
+.manage-delete {
   margin-left: 110px;
   background-color: #e2e2e3;
   color: #000000;
