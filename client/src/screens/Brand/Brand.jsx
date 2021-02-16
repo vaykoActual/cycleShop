@@ -5,58 +5,60 @@ import Layout from "../../components/shared/Layout/Layout";
 
 function Brand(props) {
   const { id } = useParams();
-  const [img, setImg] = useState('')
-  console.log(id)
+  const [img, setImg] = useState("");
+  console.log(id);
 
   useEffect(() => {
     const brandImg = () => {
-      id === 'Arch' && setImg('https://www.archmotorcycle.com/assets/images/logo.png')
-      id === 'Harley Davidson' && setImg('https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Harley-Davidson_logo.svg/1200px-Harley-Davidson_logo.svg.png')
-      id === 'Yamaha' && setImg('https://www.archmotorcycle.com/assets/images/logo.png')
-      id === 'Ducati' && setImg('https://www.archmotorcycle.com/assets/images/logo.png')
-      id === 'BMW' && setImg('https://www.archmotorcycle.com/assets/images/logo.png')
-    }
-    brandImg()
-  }, [])
-  console.log(props.products)
+      id === "Arch" &&
+        setImg("https://www.logo.wine/a/logo/Arch_Motorcycle/Arch_Motorcycle-Logo.wine.svg");
+      id === "Harley Davidson" &&
+        setImg(
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Harley-Davidson_logo.svg/1200px-Harley-Davidson_logo.svg.png"
+        );
+      id === "Yamaha" &&
+        setImg("https://www.freepnglogos.com/uploads/yamaha-png-logo/yamaha-revs-your-heart-png-logo-16.png");
+      id === "Ducati" &&
+        setImg("https://seeklogo.com/images/D/ducati-logo-880362D0BD-seeklogo.com.png");
+      id === "BMW" &&
+        setImg("https://www.logo.wine/a/logo/BMW/BMW-Logo.wine.svg");
+    };
+    brandImg();
+  }, []);
+  console.log(props.products);
   return (
     <div>
       <Layout user={props.user}>
-        <div>
-          <img src={img} alt={id} />
+        <div className="brand-container-logo">
+          <img className="brand-logo" src={img} alt={id} />
         </div>
         <div>
           {props.products.map((product) => {
             if (product.brand === id) {
               return (
                 <div className="brand-container">
+                  <div className="brand-name">{product.name}</div>
 
-                  <div>
-                    {product.name}
-                  </div>
-
-                  <div>
+                  <div className="brand-img">
                     <img src={product.imgURL} alt={product.name} />
                   </div>
 
-                  {/* <div>
-                    {product.description}
-                  </div> */}
+                  <div className="brand-price">{product.price}</div>
 
-                  <div>
-                    {product.price}
-                  </div>
+                  <NavLink
+                    className="brand-manage"
+                    to={`/manage/${product._id}`}
+                  >
+                    {" "}
+                    Manage
+                  </NavLink>
 
-                  <div>
-                    <NavLink to={`/manage/${product._id}`} > Manage</NavLink>
-                  </div>
-
-                  <div>
-                  <NavLink to="/sell"> sell</NavLink>
-                  </div>
-
+                  <NavLink className="brand-sell" to="/sell">
+                    {" "}
+                    sell
+                  </NavLink>
                 </div>
-              )
+              );
             }
           })}
         </div>
