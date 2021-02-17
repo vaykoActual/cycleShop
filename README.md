@@ -40,7 +40,7 @@
   <h3 align="center"><strong>cycleShop</strong></h3>
 
   <p align="center">
-    project3 is a MERN stack, motorcycle exchange app.
+    cycleShop is a MERN stack, full CRUD motorcycle exchange app.
     <br />
     <a href="https://github.com/vaykoActual/project3"><strong>Explore the docs »</strong></a>
     <br />
@@ -126,7 +126,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/vaykoActual/project3
+   git clone https://github.com/vaykoActual/cycleShop
    ```
 2. Install NPM packages
    ```sh
@@ -150,21 +150,24 @@ This app will demonstrate the CRUD framework utilizing Mongo, Express, React and
 ```
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
+
 const Motorcycle = new Schema(
     {
-        title: { type: String, required: true },
+        name: { type: String, required: true },
         imgURL: { type: String, required: true },
-        desciption: { type: String, required: true },
+        description: { type: String, required: true },
         price: { type: String, required: true },
         brand: { type: String, required: true },
     },
-    { timestamps: true }
+{ timestamps: true }
 )
-module.exports = mongoose.model('posts', Post)
+
+module.exports = mongoose.model('motorcycles', Motorcycle)
 ```
 ```
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
+
 const User = new Schema(
   {
     username: { type: String, required: true },
@@ -173,6 +176,7 @@ const User = new Schema(
   },
   { timestamps: true }
 )
+
 module.exports = mongoose.model('users', User)
 ```
 
@@ -245,12 +249,12 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Shayne Vaykovich: svayko@gmail.com<br>
 Aslan Shaken<br>
 Varit Seekhao<br>
-Steven Strumolo
+Steven Strumolo<br>
+Shayne Vaykovich: svayko@gmail.com<br>
 
-Project Link: [https://github.com/vaykoActual/project3](https://github.com/vaykoActual/project3)
+Project Link: [https://github.com/vaykoActual/cycleShop](https://github.com/vaykoActual/cycleShop)
 
 
 
@@ -258,9 +262,9 @@ Project Link: [https://github.com/vaykoActual/project3](https://github.com/vayko
 ## Acknowledgements
 
 * [Aslan Shaken]()
-* [Shayne Vaykovich]()
-* [Steven Strumolo]()
 * [Varit Seekhao]()
+* [Steven Strumolo]()
+* [Shayne Vaykovich]()
 
 ## Team Expectations
 
@@ -271,13 +275,13 @@ https://docs.google.com/document/d/1xWi6WSEvyMIOxNFFeid_hWvICWHbrnMiSHir_I-MBtY/
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/vaykoActual/project3
+[contributors-url]: https://github.com/vaykoActual/cycleShop
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/vaykoActual/project3
+[forks-url]: https://github.com/vaykoActual/cycleShop
 [stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/vaykoActual/project3
+[stars-url]: https://github.com/vaykoActual/cycleShop
 [issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/vaykoActual/project3/issues
+[issues-url]: https://github.com/vaykoActual/cycleShop/issues
 [license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
 [license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
