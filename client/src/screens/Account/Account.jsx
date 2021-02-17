@@ -74,7 +74,7 @@ function Account(props) {
           </form>
 
           <div className="account-or">OR</div>
-          <NavLink className="account-create-account" to="/signup" id="link-none">
+          <NavLink className="account-create-account" to="/signup">
             Create Account
           </NavLink>
           {/* <div>Contact</div> */}
