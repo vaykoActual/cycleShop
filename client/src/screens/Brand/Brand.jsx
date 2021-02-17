@@ -5,8 +5,7 @@ import Layout from "../../components/shared/Layout/Layout";
 
 function Brand(props) {
   const { id } = useParams();
-  const [img, setImg] = useState("");
-  console.log(id);
+  const [img, setImg] = useState("")
 
   useEffect(() => {
     const brandImg = () => {
@@ -24,8 +23,9 @@ function Brand(props) {
         setImg("https://www.logo.wine/a/logo/BMW/BMW-Logo.wine.svg");
     };
     brandImg();
-  }, []);
-  console.log(props.products);
+    window.scrollTo(0, 0)
+  }, [id]);
+
   return (
     <div>
       <Layout user={props.user}>
@@ -33,10 +33,10 @@ function Brand(props) {
           <img className="brand-logo" src={img} alt={id} />
         </div>
         <div>
-          {props.products.map((product) => {
+          {props.products.map((product, index) => {
             if (product.brand === id) {
               return (
-                <div className="brand-container">
+                <div className="brand-container"  key={index}>
                   <div className="brand-name">{product.name}</div>
 
                   <div className="brand-img">

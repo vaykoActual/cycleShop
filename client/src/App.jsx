@@ -12,6 +12,7 @@ import Contact from "./screens/Contact/Contact";
 import Account from "./screens/Account/Account";
 import SignUp from "./screens/SignUp/SignUp"
 import SignOut from './screens/SignOut/SignOut'
+import SearchResults from './screens/SearchResults/SearchResults'
 
 function App() {
   const [user, setUser] = useState(null);
@@ -32,7 +33,7 @@ function App() {
 
   const clearUser = () => setUser(null);
 
-  console.log(user)
+
   return (
     <div>
       <Switch>
@@ -43,7 +44,7 @@ function App() {
           <Brand user={user} products={products} />
         </Route>
         <Route path="/manage/:id">
-          <Manage user={user}/>
+          <Manage user={user} />
         </Route>
         <Route path="/edit/:id" >
           <Edit user={user} products={products} />
@@ -62,6 +63,9 @@ function App() {
         </Route>
         <Route path="/signout">
           <SignOut setUser={setUser} clearUser={clearUser} />
+        </Route>
+        <Route path="/search/:id">
+          <SearchResults user={user} products={products} />
         </Route>
       </Switch>
     </div>

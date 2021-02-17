@@ -33,7 +33,6 @@ function MotorcycleSell(props) {
   if (isCreated) {
     return <Redirect to="/" />;
   }
-  console.log(motorcycle);
   return (
     <Layout user={props.user}>
       <div className="sell-container-main-title">
