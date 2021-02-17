@@ -49,4 +49,7 @@
 .hamburger-menu {
   grid-column: 12/13;
 }
+.nav-auth-navlinks-account {
+  grid-column: 11/12;
+}
 
