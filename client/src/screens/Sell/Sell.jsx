@@ -36,7 +36,7 @@ function MotorcycleSell(props) {
   return (
     <Layout user={props.user}>
       <div className="sell-container-main-title">
-        <div className="sell-main-title">Create New Motorcycle</div>
+        <div className="sell-main-title">Add Motorcycle for Sale</div>
       </div>
       <form className="sell-container" onSubmit={handleSubmit}>
         <div className="sell-header-title">TITLE</div>

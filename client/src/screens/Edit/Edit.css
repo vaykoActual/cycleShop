@@ -3,9 +3,10 @@
   max-height: auto;
 }
 .edit-container-logo {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
   width: 100vw;
-  padding: 240px;
+  padding: 240px 0;
   background-color: #424b54;
   background-image: linear-gradient(to top, #424b54, #93979b, #ffffff 25%);
 }
@@ -62,8 +63,50 @@
   background-color: #262c31;
   color: #ffffff;
 }
-/* .edit-save {
-  margin-left: 110px;
-  background-color: #e2e2e3;
-  color: #000000;
-} */
+
+@media only screen and (max-width: 375px) {
+  .edit-logo,
+  .edit-container img {
+    width: 300px;
+  }
+  .edit-container-logo {
+    width: 100vw;
+  }
+  .edit-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 4fr 4fr 1fr 1fr;
+    grid-column: 1;
+    width: 100vw;
+  }
+  /* TEST */
+  .edit-name {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    place-self: center;
+  }
+  .edit-img {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    align-self: center;
+  }
+  .edit-description {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    align-self: start;
+  }
+  .edit-price {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    place-self: center;
+  }
+  .edit-save {
+    grid-column: 2/3;
+    grid-row: 5/6;
+  }
+  .edit-edit,
+  .edit-delete {
+    grid-column: 2/3;
+    grid-row: 5/6;
+  }
+}

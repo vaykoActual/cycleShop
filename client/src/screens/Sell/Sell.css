@@ -1,7 +1,8 @@
 .sell-container-main-title {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
   width: 100vw;
-  padding: 240px;
+  padding: 240px 0;
   background-color: #424b54;
   background-image: linear-gradient(to top, #424b54, #93979b, #ffffff 25%);
 }
@@ -96,4 +97,36 @@
   justify-self: center;
   text-align: center;
   font-weight: 500;
+}
+
+@media only screen and (max-width: 375px){
+	.sell-container-main-title{
+		width: 100vw;
+	}.sell-main-title {
+		text-align: center;
+		flex-wrap: wrap;
+		font-size: 60px;
+	}
+	.sell-container {
+		display: grid;
+		grid-template-columns: 1fr 5fr 1fr;
+		/* grid-template-rows: 4fr; */
+		grid-column: 1;
+		width: 100vw;
+		background-color: #ffffff;
+		background-image: linear-gradient(to top,#ffffff, #ffffff);
+	}
+	.sell-title,
+.sell-header-title,
+.sell-brand,
+.sell-header-brand,
+.sell-price,
+.sell-header-price,
+.sell-header-description,
+.sell-description,
+.sell-header-img-link,
+.sell-img-link,
+.sell-submit {
+	grid-column: 2/3;
+}
 }
