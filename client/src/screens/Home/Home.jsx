@@ -4,10 +4,9 @@ import Layout from "../../components/shared/Layout/Layout.jsx";
 import Brands from "../../components/Brands/Brands";
 
 const Home = (props) => {
-  console.log(props.products);
   return (
     <div>
-      <Layout user={props.user} >
+      <Layout user={props.user} products={props.products} >
         <Brands />
         <div></div>
       </Layout>
