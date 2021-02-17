@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import searchicon from "../../../assets/icons/search-icon.svg";
+import searchIcon from "../../../assets/icons/search-icon.svg";
 import logo from "../../../assets/icons/logo.svg";
 import menuIcon from "../../../assets/icons/hamburger-menu.svg";
 import exitIcon from "../../../assets/icons/exit-icon.svg";
@@ -17,6 +17,7 @@ const signUpIn = (
   </>
 );
 const signout = (
+  <>
     <NavLink className="nav-navlinks-signout" to="/signout">
       Sign Out
     </NavLink>
