@@ -1,14 +1,21 @@
-import "./Brands.css";
 import { NavLink } from "react-router-dom";
+import archDeskImg from "../../assets/img/arch-main-desk.jpg";
+import archMobileImg from "../../assets/img/arch-main-mobile.jpg";
+import "./Brands.css";
 
 const Brands = (props) => {
   return (
     <div>
       <div className="brands-container-arch">
         <img
-          className="brands-image-arch"
-          src="https://www.archmotorcycle.com/assets/images/method-hero-1-min.jpg"
-          alt="someText"
+          className="brands-image-arch-desk"
+          src={archDeskImg}
+          alt="arch"
+        />
+        <img
+          className="brands-image-arch-mobile"
+          src={archMobileImg}
+          alt="arch"
         />
         <div className="brands-name-arch">Arch Method 143</div>
         <NavLink className="brands-shop" to="/brand/Arch"> shop </NavLink>

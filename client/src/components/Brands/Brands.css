@@ -8,7 +8,6 @@
   grid-template-rows: 1fr 2fr 1fr;
   grid-column: 1;
   width: 100vw;
-  /* height: 736px; */
 }
 .brands-container-harley,
 .brands-container-bmw {
@@ -45,18 +44,16 @@
   width: 800px;
   grid-column: 3;
 }
-.brands-image-arch {
+.brands-image-arch-desk {
   width: 100vw;
-  /* height: 768px; */
   grid-column: 1/6;
   grid-row: 1 /span 4;
-  /* clip-path: inset(0 85px); */
-  /* transform: scale(1.5); */
-  /* object-fit: none; */
-  /* object-position: 50% 50%; */
-  /* object-position: 0 100px; */
-
-  
+}
+.brands-image-arch-mobile {
+  display: none;
+  width: 100vw;
+  grid-column: 1/6;
+  grid-row: 1 /span 4;
 }
 
 .brands-image-harley {
@@ -104,11 +101,17 @@
   background-color: #E2E2E3;
   color: #000000;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 375px) {
   .brands-image-harley,
   .brands-image-yamaha,
   .brands-image-bmw,
   .brands-image-ducati {
     width: 300px;
+  }
+  .brands-image-arch-mobile {
+    display: block;
+  }
+  .brands-image-arch-desk{
+    display: none;
   }
 }
