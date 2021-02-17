@@ -40,7 +40,7 @@
   <h3 align="center"><strong>cycleShop</strong></h3>
 
   <p align="center">
-    cycleShop is a MERN stack, full CRUD motorcycle exchange app.
+    cycleShop is a MERN stack, full CRUD motorcycle exchange app. CycleShop facilitates consumer-to-consumer sales of motorcycles through the website. 
     <br />
     <a href="https://github.com/vaykoActual/project3"><strong>Explore the docs »</strong></a>
     <br />

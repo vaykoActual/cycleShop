@@ -1,8 +1,8 @@
 .nav-container {
   display: grid;
-  /* position: fixed; */
+  position: fixed;
   width: 100vw;
-  grid-template-columns: 50px 50px 2fr 150px 72px 52px 60px 63px 2fr 50px 75px 50px 30px;
+  grid-template-columns: 50px 50px 2fr 150px 72px 52px 60px 63px 1fr 50px .8fr 50px 50px;
   grid-template-rows: 50px;
 }
 
@@ -61,7 +61,19 @@
 
 .nav-auth-navlinks-account {
   grid-column: 11/12;
+  grid-row: 1/2;
+  justify-self: start;
+  align-self: center;
+  padding-left: 5px;
 }
+.nav-navlinks-signout {
+  grid-column: 11/12;
+  grid-row: 1/2;
+  justify-self: end;
+  align-self: center;
+  padding-right: 5px;
+}
+
 
 .nav-search form {
   display: flex;
@@ -78,4 +90,43 @@
 
 .nav-search form img {
   margin-bottom: -2px;
+}
+.exit-icon {
+  display: none;
+  grid-column: 12/14;
+  grid-row: 1;
+  z-index: 5;
+}
+.nav-ham-list {
+  display: none;
+  grid-column: 13/14;
+  z-index: 5;
+  align-content: flex-start;
+  padding: 0 70px;
+}
+.active-menu {
+  grid-column: 10/14;
+  display: grid;
+  width: 100%;
+  z-index: 1;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.active-menu img {
+  position: absolute;
+  width: 18px;
+  top: 0;
+  right: 67px;
+  padding-top: 15px;
+}
+.nav-contact {
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 1px solid #000000;
+}
+.shade {
+  background-color: #0000000a;
+  width: 100vw;
+  height: 100vh;
 }
