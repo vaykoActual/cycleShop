@@ -3,9 +3,10 @@
   max-height: auto;
 }
 .brand-container-logo {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
   width: 100vw;
-  padding: 240px;
+  padding: 240px 0;
   background-color: #424b54;
   background-image: linear-gradient(to top, #424b54, #93979b, #ffffff 25%);
 }
@@ -60,4 +61,14 @@
   margin-left: 110px;
   background-color: #e2e2e3;
   color: #000000;
+}
+
+@media only screen and (max-width: 375px) {
+  .brand-logo,
+  .brand-container img{
+    width: 300px;
+  }
+  .brand-container-logo {
+    width: 100vw;
+  }
 }

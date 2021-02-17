@@ -12,7 +12,7 @@ import { signUp } from "../../../services/users";
 const signUpIn = (
   <>
     <NavLink className="nav-navlinks-account" to="/account">
-      Account
+      ACCOUNT
     </NavLink>
   </>
 );
@@ -71,13 +71,25 @@ function Nav({ user }) {
         />
       </div>
       <div className={`nav-ham-list ${menuActive ? "active-menu" : ""}`}>
-        <NavLink className="nav-contact" to="/contact">
-          CONTACT
+        <NavLink className="nav-ham" to="/brand/Harley Davidson">
+          HARLEY DAVISON
         </NavLink>
-        <NavLink className="nav-contact" to="/contact">
-          CONTACT
+        <NavLink className="nav-ham" to="/brand/Ducati">
+          DUCATI
         </NavLink>
-        <NavLink className="nav-contact" to="/contact">
+        <NavLink className="nav-ham" to="/brand/Yamaha">
+          YAMAHA
+        </NavLink>
+        <NavLink className="nav-ham" to="/brand/Arch">
+          ARCH
+        </NavLink>
+        <NavLink className="nav-ham" to="/brand/BMW">
+          BMW
+        </NavLink>
+        <NavLink className="nav-ham" to="/account">
+          ACCOUNT
+        </NavLink>
+        <NavLink className="nav-ham" to="/contact">
           CONTACT
         </NavLink>
       </div>
