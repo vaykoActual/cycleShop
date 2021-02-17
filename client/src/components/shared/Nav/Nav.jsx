@@ -29,16 +29,16 @@ function Nav({ user }) {
         <img src={logo} alt="Logo" />
       </NavLink>
         <NavLink className="nav-navlinks-harley" to="/brand/Harley Davidson">
-          Harley Davidson
+          HARLEY DAVISON
         </NavLink>
         <NavLink className="nav-navlinks-ducati" to="/brand/Ducati">
-          Ducati
+          DUCATI
         </NavLink>
         <NavLink className="nav-navlinks-yamaha" to="/brand/Yamaha">
-          Yamaha
+          YAMAHA
         </NavLink>
         <NavLink className="nav-navlinks-arch" to="/brand/Arch">
-          Arch
+          ARCH
         </NavLink>
         <NavLink className="nav-navlinks-bmw" to="/brand/BMW">
           BMW

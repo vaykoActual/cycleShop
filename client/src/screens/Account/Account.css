@@ -2,58 +2,60 @@
     background-color: brown;
 }
 
-.signin-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 50px;
+.account-container{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+}
+.account-main-title {
+	grid-column: 2/3;
+	align-self: end;
+	text-align: center;
+}
+.account-container form{
+	grid-column: 2/3;
+	grid-row: 2/3;
+	align-content: center;
 }
 
-.signin-container form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* border: 3px solid blanchedalmond; */
-}
+.account-form {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
 
-.signin-container form label {
-    margin: 5px;
-    text-align: left;
 }
-
-.signin-container form input {
-    margin-bottom: 15px;
-    width: 200px;
-    height: auto;
-    background-color: rgb(211, 206, 206);
-    border-radius: 20px;
+.account-form label {
+	padding-left: 10px;
+	margin-top: 15px;
+	justify-self: start;
 }
-
-.signin-container form button {
-    width: 200px;
-    height: auto;
-    background-color: rgb(60, 60, 233);
-    color: white;
-    margin: 20px 0px 40px 0px;
-    border-radius: 20px;
+.account-form input {
+	border: none;
+	border-radius: 25px;
+	background-color: #E2E2E3;
+	height: 30px;
+	width: 332px;
 }
-
-.sigin-or div {
-    margin: 20px;
-    text-align: center;
+.account-form button {
+	background-color: #3F3FFA;
+  color: #ffffff;
+	border-radius: 25px;
+  align-self: center;
+  text-align: center;
+  font-weight: 500;
+	height: 30px;
+	width: 332px;
+	margin-top: 30px;
 }
-
-#newAcc-link {
-    border: 2px solid black;
-    width: 200px;
-    height: 20px;
-    padding: 5px;
-    border-radius: 20px;
+.account-or {
+	grid-column: 2/3;
+	grid-row: 3/4;
+	align-self: center;
+  text-align: center;
 }
-
-#link-none {
-    text-decoration: none;
-    color: black;
+.account-create-account {
+	grid-column: 2/3;
+	grid-row: 4/5;
+	align-self: start;
+  text-align: center;
 }
