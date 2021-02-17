@@ -24,12 +24,14 @@
     "bcrypt": "^5.0.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "heroku": "^7.47.12",
     "jsonwebtoken": "^8.5.1",
     "jwt-decode": "^3.1.2",
-    "mongoose": "^5.11.15",
+    "mongoose": "^5.11.16",
     "moongoose": "^0.0.5",
     "morgan": "^1.10.0",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "snap": "^1.1.0"
   },
   "devDependencies": {
     "body-parser": "^1.19.0",

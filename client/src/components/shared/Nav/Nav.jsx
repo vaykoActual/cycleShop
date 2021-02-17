@@ -1,15 +1,15 @@
 import { NavLink } from "react-router-dom";
-import searchicon from "../../../assets/icons/search-icon.svg";
+import searchIcon from "../../../assets/icons/search-icon.svg";
 import logo from "../../../assets/icons/logo.svg";
 import menuIcon from "../../../assets/icons/hamburger-menu.svg";
 import exitIcon from "../../../assets/icons/exit-icon.svg";
 import { useState } from "react";
-
 import "./Nav.css";
 import React from "react";
 import { signUp } from "../../../services/users";
 
 const signUpIn = (
+
   <>
     <NavLink className="nav-navlinks-account" to="/account">
       ACCOUNT
@@ -26,6 +26,7 @@ const signout = (
 
 function Nav({ user }) {
   const [menuActive, setMenuActive] = useState(false);
+  const [searchedItem, setSearchedItem] = useState("")
 
   return (
     <div className="nav-container">
@@ -48,7 +49,20 @@ function Nav({ user }) {
         BMW
       </NavLink>
       <div className="nav-search">
-        <img src={searchicon} alt="Search" />
+        <form>
+          <input
+            id="searchInput"
+            type="text"
+            autoFocus
+            placeholder="Search"
+            value={searchedItem}
+            onChange={(e) => setSearchedItem(e.target.value)}
+          />
+          {searchedItem === ""
+            ? <img src={searchIcon} alt="Search" />
+            : <NavLink to={`/search/${searchedItem}`}><img src={searchIcon} alt="Search" /></NavLink>
+          }
+        </form>
       </div>
       {user ? (
         <div className="nav-auth-navlinks-account">

@@ -25,7 +25,6 @@ function MotorcycleEdit(props) {
     fetchProduct();
   }, [id]);
 
-  console.log(motorcycle);
 
   const handleChange = (event) => {
     const { name, value } = event.target;
