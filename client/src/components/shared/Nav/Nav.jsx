@@ -47,7 +47,7 @@ function Nav({ user }) {
           <img src={searchIcon} alt="Search" />
         </div>
         {/* <NavLink to="/contact">Contact</NavLink> */}
-        {user ? <>Hello,&nbsp;&nbsp; {user.username.toUpperCase()}</> : null}
+        {user ? <div className="nav-navlinks-account">Hello,&nbsp;&nbsp; {user.username.toUpperCase()}</div> : null}
         {user ? signout : signUpIn}
         <div className="hamburger-menu"><img src={hamburger} alt="hamburger-menu"/></div>
       </div>
