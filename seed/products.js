@@ -11,7 +11,7 @@ const main = async () => {
         "https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2021/2021-road-glide-special/2021-road-glide-special-e99b/2021-road-glide-special-e99b-motorcycle.jpg?impolicy=myresize&rw=500",
       description:
         "The benchmark for long-distance touring bikes. Runs mile after mile with ease.",
-      price: "21,699",
+      price: "21,700",
       brand: "Harley Davidson",
     },
     {
