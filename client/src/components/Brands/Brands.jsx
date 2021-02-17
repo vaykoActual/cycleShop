@@ -10,13 +10,13 @@ const Brands = (props) => {
           src="https://www.archmotorcycle.com/assets/images/method-hero-1-min.jpg"
           alt="someText"
         />
-        <div className="brands-name-arch">Arch Method 143</div>
+        <div className="brands-name-arch">Arch</div>
         <NavLink className="brands-shop" to="/brand/Arch"> shop </NavLink>
         <NavLink className="brands-sell" to="/sell"> sell</NavLink>
       </div>
 
       <div className="brands-container-harley">
-        <div className="brands-name">2021 Road Glide</div>
+        <div className="brands-name">Harley Davison</div>
         <img
           className="brands-image-harley"
           src="https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2021/2021-road-glide/2021-road-glide-f16/360/2021-road-glide-f16-motorcycle-01.jpg?impolicy=myresize&rw=1600"
@@ -26,7 +26,7 @@ const Brands = (props) => {
         <NavLink className="brands-sell" to="/sell"> sell</NavLink>
       </div>
       <div className="brands-container-yamaha">
-        <div className="brands-name">YZF R1M</div>
+        <div className="brands-name">Yamaha</div>
         <img
           className="brands-image-yamaha"
           src="https://yamaha.scdn5.secure.raxcdn.com/library/img.jpg?id=5f4be31b2a0ab63a745a4beb&w=1920"
@@ -36,7 +36,7 @@ const Brands = (props) => {
         <NavLink className="brands-sell" to="/sell"> sell</NavLink>
       </div>
       <div className="brands-container-bmw">
-        <div className="brands-name">2021 R nineT Scrambler</div>
+        <div className="brands-name">BMW</div>
         <img
           className="brands-image-bmw"
           src="https://2yrh403fk8vd1hz9ro2n46dd-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/2021-BMW-R-nineT-lineup-First-look-Pure-GS-Scrambler-retro-motorcycles-9.jpg"
@@ -46,7 +46,7 @@ const Brands = (props) => {
         <NavLink className="brands-sell" to="/sell"> sell</NavLink>
       </div>
       <div className="brands-container-ducati">
-        <div className="brands-name">DIAVEL 1260</div>
+        <div className="brands-name">Ducati</div>
         <img
           className="brands-image-ducati"
           src="https://images.ctfassets.net/x7j9qwvpvr5s/7pNrWMaSWtvv3H6aHqhEL6/09116590a18c241ed5c863ecc72add26/DVL-1260-Bl-MY21-Model-Preview-1050x650-v02.png"
