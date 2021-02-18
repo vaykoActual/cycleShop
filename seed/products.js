@@ -27,7 +27,7 @@ const main = async () => {
       imgURL:
         "https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2021/2021-low-rider-s/2021-low-rider-s-f20/2021-low-rider-s-f20-motorcycle.jpg?impolicy=myresize&rw=500",
       description: "A blacked-out, factory custom performance cruiser.",
-      price: "17,999",
+      price: "17,995",
       brand: "Harley Davidson",
     },
     {
@@ -126,7 +126,7 @@ const main = async () => {
         "https://scramblerducati.com/wp-content/uploads/2020/01/Scrambler-1100-sport-Pro01-1920x1280.jpg",
       description:
         "The engine of the Ducati Scrambler 1100 Sport PRO is an air-and oil-cooled, 1079 cm³, two-valve L-twin engine with EURO 5 approval. It has a bore of 98 mm and a stroke of 71.5 mm and favours smooth acceleration at all rpm and ease of handling. The Desmodue engine of the Scrambler 1100 Sport PRO has lightweight crankcases and machined aluminium clutch and alternator covers. The two belt covers are also made of aluminium and they are also machined to enhance the aesthetics.",
-      price: "15,495",
+      price: "15,499",
       brand: "Ducati",
     },
     {

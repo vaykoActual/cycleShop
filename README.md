@@ -182,11 +182,12 @@ module.exports = mongoose.model('users', User)
 
 <!-- ROADMAP -->
 ## Roadmap
-Styling - https://ibb.co/2WV5x7k
-![Screen Shot 2021-02-11 at 4 11 15 PM](https://user-images.githubusercontent.com/76179998/107699277-dc736e00-6c83-11eb-8c88-c2cb2eecf6e5.png)
 
 Flow-chart- https://ibb.co/GP3nsL9
-![Screen Shot 2021-02-11 at 4 12 57 PM](https://user-images.githubusercontent.com/76179998/107699396-088eef00-6c84-11eb-94ab-91e6522503c0.png)
+![moto-chart (3)](https://user-images.githubusercontent.com/76179998/108370248-70848e80-71ca-11eb-9d5c-4900e2a29a66.png)
+
+Styling - https://ibb.co/2WV5x7k
+![Screen Shot 2021-02-11 at 4 11 15 PM](https://user-images.githubusercontent.com/76179998/107699277-dc736e00-6c83-11eb-8c88-c2cb2eecf6e5.png)
 
 
 ## Web Wire frames: 
@@ -205,23 +206,6 @@ Flow-chart- https://ibb.co/GP3nsL9
 ![Sign Up-Web 1920 – 1](https://user-images.githubusercontent.com/76179998/107698610-cadd9680-6c82-11eb-8e72-01efb265991e.png)
 ### Sell Screen:
 ![Sell-Web 1920](https://user-images.githubusercontent.com/76179998/107698653-d9c44900-6c82-11eb-8e63-018079eeb941.png)
-
-## Mobile Wire Frames:
-
-### Mobile Home Screen:
-![Home-Web](https://user-images.githubusercontent.com/76179998/107698814-227c0200-6c83-11eb-9175-57e524533902.png)
-### Mobile Brand Screen:
-![Brand-Web 1920](https://user-images.githubusercontent.com/76179998/107698840-2b6cd380-6c83-11eb-980b-3a0b678d8801.png)
-### Mobile Product/Edit/Delete Screen:
-![Product, edit, delete, MANAGE -Web](https://user-images.githubusercontent.com/76179998/107698865-36276880-6c83-11eb-8411-0119b84aeb60.png)
-### Mobile Contact Screen:
-![Contact-Web 1920 – 1](https://user-images.githubusercontent.com/76179998/107698902-45a6b180-6c83-11eb-89a9-55c9ec7a935b.png)
-### Mobile Sign In Screen:
-![Sign In-Web 1920](https://user-images.githubusercontent.com/76179998/107698925-4f301980-6c83-11eb-85ae-205b736c06bf.png)
-### Mobile Sign Up Screen:
-![Sign Up-Web 1920 – 1](https://user-images.githubusercontent.com/76179998/107698959-59eaae80-6c83-11eb-88b7-926f91adc7dc.png)
-### Mobile Sell Screen:
-![Sell-Web 1920](https://user-images.githubusercontent.com/76179998/107698999-6838ca80-6c83-11eb-81ad-187402bec5ba.png)
 
 
 
@@ -251,7 +235,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Aslan Shaken<br>
 Varit Seekhao<br>
-Steven Strumolo<br>
+Steven Strumolo: stevenstrumolo@gmail.com<br>
 Shayne Vaykovich: svayko@gmail.com<br>
 
 Project Link: [https://github.com/vaykoActual/cycleShop](https://github.com/vaykoActual/cycleShop)
