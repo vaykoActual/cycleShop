@@ -13,7 +13,7 @@ function Contact(props) {
         </div>
         <div className="contact-container">
           <div className="contact-shanye">
-            <img height="300px" src='https://media-exp1.licdn.com/dms/image/C4E03AQGtz72tgqB1fQ/profile-displayphoto-shrink_800_800/0/1612885306198?e=1619049600&v=beta&t=sWESi2l_D2B014Ym2FBng7EmWLrCwxY3HXdUmoptm5k' alt="profile picture" />
+            <img height="300px" src='https://media-exp1.licdn.com/dms/image/C4D03AQGXjUvKzW5s4A/profile-displayphoto-shrink_800_800/0/1613668709953?e=1619049600&v=beta&t=Ltdk2GoWO1ZDYhCLj-KpbGztmIeez35of566kpIZS_8' alt="profile picture" />
             <h1>Shayne</h1>
 						<h2>Full-Stack Engineer</h2>
 
