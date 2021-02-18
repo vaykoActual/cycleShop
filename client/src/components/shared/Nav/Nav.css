@@ -15,6 +15,7 @@
 .nav-navlinks-ducati,
 .nav-search,
 .nav-navlinks-account,
+.nav-navlinks-contact,
 .hamburger-menu {
   font-weight: 500;
   justify-self: center;
@@ -51,9 +52,22 @@
 .nav-search {
   grid-column: 10/11;
 }
-
-.nav-navlinks-account {
+.nav-navlinks-account{
   grid-column: 11/12;
+}
+/* .nav-ham-account, */
+.nav-navlinks-contact {
+  grid-column: 1/2;
+  padding: 10px 0;
+  
+}
+.nav-navlinks-contact {
+  grid-row: 2/3;
+  border-bottom: 1px solid #000000;
+  border-top: 1px solid #000000;
+}
+.nav-ham {
+  grid-column: 1/2;
 }
 
 .hamburger-menu {
@@ -86,6 +100,7 @@
 
 .nav-search form input {
   margin-right: 10px;
+  border-style: none;
   border-radius: 20px;
 }
 
@@ -143,7 +158,8 @@
   .nav-search,
   .nav-navlinks-account,
   .nav-auth-navlinks-account,
-  .nav-navlinks-signout {
+  .nav-navlinks-signout,
+  .nav-navlinks-contact {
     display: none;
   }
   .nav-container {
@@ -186,6 +202,9 @@
     top: 0;
     right: 20px;
     padding-top: 15px;
+  }
+  .nav-navlinks-account {
+    grid-column: 11/12;
   }
   .nav-ham {
     display: block;
