@@ -85,6 +85,14 @@ function Nav({ user }) {
         />
       </div>
       <div className={`nav-ham-list ${menuActive ? "active-menu" : ""}`}>
+
+        {/* Hidden */}
+      {user ? (
+        <div className="nav-ham">
+          Hello,&nbsp;{user.username.toUpperCase()}
+        </div>
+      ) : null}
+      {user ? signout : signUpIn}
         <NavLink className="nav-ham" to="/brand/Harley Davidson">
           HARLEY DAVISON
         </NavLink>

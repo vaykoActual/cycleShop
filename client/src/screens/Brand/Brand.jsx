@@ -50,12 +50,12 @@ function Brand(props) {
                     to={`/manage/${product._id}`}
                   >
                     {" "}
-                    Manage
+                    MANAGE
                   </NavLink>
 
                   <NavLink className="brand-sell" to="/sell">
                     {" "}
-                    sell
+                    SELL
                   </NavLink>
                 </div>
               );

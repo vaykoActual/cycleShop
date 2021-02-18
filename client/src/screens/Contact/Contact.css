@@ -40,6 +40,13 @@
 .contact-steven {
   grid-column: 4/5;
 }
+.social-icon-github {
+	padding-left: 110px;
+}
+.social-icon-linkedin {
+	padding-left: 10px;
+}
+
 @media only screen and (max-width: 375px){
 	.contact-main-title {
 		text-align: center;

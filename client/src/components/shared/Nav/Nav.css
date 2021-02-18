@@ -122,6 +122,7 @@
   padding-top: 15px;
 }
 .nav-ham {
+  display: none;
   width: 100%;
   padding: 10px 0;
   border-bottom: 1px solid #000000;
@@ -132,11 +133,7 @@
   height: 100vh;
 }
 
-/* Mobile CSS */
-.nav-container-mobile {
-  display: none;
 
-}
 @media only screen and (max-width: 375px){
   .nav-navlinks-harley,
   .nav-navlinks-ducati,
@@ -144,7 +141,9 @@
   .nav-navlinks-arch,
   .nav-navlinks-bmw,
   .nav-search,
-  .nav-navlinks-account{
+  .nav-navlinks-account,
+  .nav-auth-navlinks-account,
+  .nav-navlinks-signout {
     display: none;
   }
   .nav-container {
@@ -187,5 +186,8 @@
     top: 0;
     right: 20px;
     padding-top: 15px;
+  }
+  .nav-ham {
+    display: block;
   }
 }

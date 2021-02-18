@@ -58,9 +58,9 @@ function MotorcycleDetail(props) {
             <img className="manage-img" src={motorcycle.imgURL} />
             <h3 className="manage-description">{motorcycle.description}</h3>
             <h4 className="manage-price">{motorcycle.price}</h4>
-            <NavLink className="manage-edit" to={`/edit/${id}`}> Edit</NavLink>
+            <NavLink className="manage-edit" to={`/edit/${id}`}> EDIT</NavLink>
             <button className="manage-delete" onClick={handleDelete}>
-              Delete
+              DELETE
             </button>
           </div>
       </Layout>

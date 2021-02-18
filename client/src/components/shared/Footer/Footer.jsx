@@ -1,10 +1,10 @@
 import { NavLink } from "react-router-dom";
 function Footer() {
   return (
-    <div>
-      <NavLink to="/contact">
+    <div className="footer">
+      {/* <NavLink to="/contact">
         <button>contact</button>
-      </NavLink>
+      </NavLink> */}
     </div>
   );
 }
