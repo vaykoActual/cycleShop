@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import searchIcon from "../../../assets/icons/search-icon.svg";
-import logo from "../../../assets/icons/logo.svg";
+import logo from "../../../assets/icons/logo3.png";
 import menuIcon from "../../../assets/icons/hamburger-menu.svg";
 import exitIcon from "../../../assets/icons/exit-icon.svg";
 import { useState } from "react";
@@ -18,7 +18,7 @@ const signUpIn = (
 const signout = (
   <>
     <NavLink className="nav-navlinks-signout" to="/signout">
-      Sign Out
+      SIGN OUT
     </NavLink>
   </>
 );
@@ -30,7 +30,7 @@ function Nav({ user }) {
   return (
     <div className="nav-container">
       <NavLink className="nav-logo" to="/">
-        <img src={logo} alt="Logo" />
+        <img className="nav-logo" src={logo} alt="Logo" />
       </NavLink>
       <NavLink className="nav-navlinks-harley" to="/brand/Harley Davidson">
         HARLEY DAVISON

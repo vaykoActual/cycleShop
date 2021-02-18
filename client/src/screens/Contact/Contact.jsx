@@ -15,8 +15,8 @@ function Contact(props) {
           <div className="contact-shanye">
             <img src={placeholder} alt="profile picture" />
             <h1>Shayne</h1>
-						<h3>Full-Stack Engineer</h3>
-            <div>Manage and create backend logic</div>
+						<h2>Full-Stack Engineer</h2>
+            <p>Manage and create backend logic</p>
 						<img className="social-icon-github" src={githubIcon} alt="github"/>
 						<img className="social-icon-linkedin" src={linkedinIcon} alt="linkedin"/>
           </div>
@@ -24,7 +24,7 @@ function Contact(props) {
             <img src={placeholder} alt="profile picture" />
             <h1>Aslan</h1>
 						<h2>Full-Stack Engineer</h2>
-            <div>Manage and create front-end and backend logic</div>
+            <p>Manage and create front-end and backend logic</p>
 						<img className="social-icon-github" src={githubIcon} alt="github"/>
 						<img className="social-icon-linkedin" src={linkedinIcon} alt="linkedin"/>
           </div>
@@ -32,7 +32,7 @@ function Contact(props) {
             <img src={placeholder} alt="profile picture" />
             <h1>Varit</h1>
 						<h2>Full-Stack Engineer</h2>
-            <div>Design front-end and UX design</div>
+            <p>Design front-end and UX design</p>
 						<img className="social-icon-github" src={githubIcon} alt="github"/>
 						<img className="social-icon-linkedin" src={linkedinIcon} alt="linkedin"/>
           </div>
@@ -40,7 +40,7 @@ function Contact(props) {
             <img src={placeholder} alt="profile picture" />
             <h1>Steven</h1>
 						<h2>Full-Stack Engineer</h2>
-            <div>Manage and create backend logic</div>
+            <p>Manage and create backend logic</p>
 						<img className="social-icon-github" src={githubIcon} alt="github"/>
 						<img className="social-icon-linkedin" src={linkedinIcon} alt="linkedin"/>
           </div>
