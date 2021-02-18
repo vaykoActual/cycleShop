@@ -186,8 +186,8 @@ module.exports = mongoose.model('users', User)
 Flow-chart- https://ibb.co/GP3nsL9
 ![moto-chart (3)](https://user-images.githubusercontent.com/76179998/108370248-70848e80-71ca-11eb-9d5c-4900e2a29a66.png)
 
-Styling - https://ibb.co/2WV5x7k
-![Screen Shot 2021-02-11 at 4 11 15 PM](https://user-images.githubusercontent.com/76179998/107699277-dc736e00-6c83-11eb-8c88-c2cb2eecf6e5.png)
+<!-- Styling - https://ibb.co/2WV5x7k
+![Screen Shot 2021-02-11 at 4 11 15 PM](https://user-images.githubusercontent.com/76179998/107699277-dc736e00-6c83-11eb-8c88-c2cb2eecf6e5.png) -->
 
 
 ## Web Wire frames: 
