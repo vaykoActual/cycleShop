@@ -33,7 +33,7 @@ function Nav({ user }) {
         <img className="nav-logo" src={logo} alt="Logo" />
       </NavLink>
       <NavLink className="nav-navlinks-harley" to="/brand/Harley Davidson">
-        HARLEY DAVISON
+        HARLEY DAVIDSON
       </NavLink>
       <NavLink className="nav-navlinks-ducati" to="/brand/Ducati">
         DUCATI
