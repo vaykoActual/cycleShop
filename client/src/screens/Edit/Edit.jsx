@@ -1,5 +1,5 @@
 import Layout from "../../components/shared/Layout/Layout";
-import { useParams, Link, NavLink, Redirect } from "react-router-dom";
+import { useParams, Redirect } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import { getMotorcycle, updateMotorcycle } from "../../services/products";
 import "./Edit.css";
@@ -25,7 +25,6 @@ function MotorcycleEdit(props) {
     fetchProduct();
   }, [id]);
 
-
   const handleChange = (event) => {
     const { name, value } = event.target;
     setMotorcycle({
@@ -49,7 +48,6 @@ function MotorcycleEdit(props) {
     <div>
       <Layout user={props.user}>
         <div className="edit-container-logo">
-
           {motorcycle.brand === "Arch" && (
             <img
               className="edit-logo"

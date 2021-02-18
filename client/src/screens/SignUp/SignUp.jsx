@@ -91,9 +91,9 @@ function SignUp(props) {
           </form>
 
           <div className="signup-or">OR</div>
-            <NavLink className="signup-signin" to="/account">
-              SIGN IN
-            </NavLink>
+          <NavLink className="signup-signin" to="/account">
+            SIGN IN
+          </NavLink>
 
           {/* <div>Contact</div> */}
         </div>
