@@ -3,7 +3,7 @@ import "./Sell.css";
 import { Redirect } from "react-router-dom";
 import Layout from "../../components/shared/Layout/Layout";
 import { createMotorcycle } from "../../services/products";
-import morgan from "morgan";
+// import morgan from "morgan";
 
 function MotorcycleSell(props) {
   const [motorcycle, setMotorcycle] = useState({
@@ -49,7 +49,7 @@ function MotorcycleSell(props) {
           autoFocus
           onChange={handleChange}
         />
-				<div className="sell-header-brand">BRAND</div>
+        <div className="sell-header-brand">BRAND</div>
         <select
           className="sell-brand"
           name="brand"
