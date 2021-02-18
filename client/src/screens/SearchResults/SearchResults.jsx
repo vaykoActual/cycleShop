@@ -10,10 +10,10 @@ function SearchResults(props) {
 
     function Check() {
         return (
-            props.products.map((product) => {
+            props.products.map((product, index) => {
                 if (product.name.toLowerCase().includes(id.toLowerCase())) {
                     return (
-                        <div className="search-container">
+                        <div className="search-container" key={index}>
                             <div className="search-name">{product.name}</div>
 
                             <div className="search-img">
@@ -44,7 +44,7 @@ function SearchResults(props) {
         <div>
             <Layout user={props.user}>
                 <div className="search-container-logo">
-                    <img className="search-logo" src="https://www.logo.wine/a/logo/Arch_Motorcycle/Arch_Motorcycle-Logo.wine.svg" alt={id} />
+                    <h1 className="search-logo"> Search Results</h1>
                 </div>
                 <div>
                     {Check()}
