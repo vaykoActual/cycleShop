@@ -9,7 +9,6 @@ import React from "react";
 import { signUp } from "../../../services/users";
 
 const signUpIn = (
-
   <>
     <NavLink className="nav-navlinks-account" to="/account">
       ACCOUNT
@@ -26,7 +25,7 @@ const signout = (
 
 function Nav({ user }) {
   const [menuActive, setMenuActive] = useState(false);
-  const [searchedItem, setSearchedItem] = useState("")
+  const [searchedItem, setSearchedItem] = useState("");
 
   return (
     <div className="nav-container">
@@ -58,10 +57,13 @@ function Nav({ user }) {
             value={searchedItem}
             onChange={(e) => setSearchedItem(e.target.value)}
           />
-          {searchedItem === ""
-            ? <img src={searchIcon} alt="Search" />
-            : <NavLink to={`/search/${searchedItem}`}><img src={searchIcon} alt="Search" /></NavLink>
-          }
+          {searchedItem === "" ? (
+            <img src={searchIcon} alt="Search" />
+          ) : (
+            <NavLink to={`/search/${searchedItem}`}>
+              <img src={searchIcon} alt="Search" />
+            </NavLink>
+          )}
         </form>
       </div>
       {user ? (
@@ -85,14 +87,12 @@ function Nav({ user }) {
         />
       </div>
       <div className={`nav-ham-list ${menuActive ? "active-menu" : ""}`}>
-
         {/* Hidden */}
-      {user ? (
-        <div className="nav-ham">
-          Hello,&nbsp;{user.username.toUpperCase()}
-        </div>
-      ) : null}
-      {user ? signout : signUpIn}
+        {user ? (
+          <div className="nav-ham">
+            Hello,&nbsp;{user.username.toUpperCase()}
+          </div>
+        ) : null}
         <NavLink className="nav-ham" to="/brand/Harley Davidson">
           HARLEY DAVISON
         </NavLink>
@@ -112,6 +112,9 @@ function Nav({ user }) {
           ACCOUNT
         </NavLink>
         <NavLink className="nav-ham" to="/contact">
+          CONTACT
+        </NavLink>
+        <NavLink className="nav-navlinks-contact" to="/contact">
           CONTACT
         </NavLink>
       </div>
