@@ -23,11 +23,13 @@ function MotorcycleDetail(props) {
     return <h1>Loading...</h1>;
   }
 
+
   const handleDelete = (event) => {
     event.preventDefault();
     const deleted = deleteMotorcycle(motorcycle._id);
     setUpdated(deleted);
   };
+
 
   if (isUpdated) {
     return <Redirect to={`/brand/${motorcycle.brand}`} />;
@@ -36,33 +38,33 @@ function MotorcycleDetail(props) {
   return (
     <div>
       <Layout user={props.user}>
-          <div className="manage-container-logo">
-            {motorcycle.brand === "Arch" && (
-              <img className="manage-logo" src="https://www.archmotorcycle.com/assets/images/logo.png" />
-            )}
-            {motorcycle.brand === "Harley Davidson" && (
-              <img className="manage-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Harley-Davidson_logo.svg/1200px-Harley-Davidson_logo.svg.png" />
-            )}
-            {motorcycle.brand === "Yamaha" && (
-              <img className="manage-logo" src="https://www.archmotorcycle.com/assets/images/logo.png" />
-            )}
-            {motorcycle.brand === "Ducati" && (
-              <img className="manage-logo" src="https://www.archmotorcycle.com/assets/images/logo.png" />
-            )}
-            {motorcycle.brand === "BMW" && (
-              <img className="manage-logo" src="https://www.archmotorcycle.com/assets/images/logo.png" />
-            )}
-          </div>
-          <div className="manage-container">
-            <h1 className="manage-name">{motorcycle.name}</h1>
-            <img className="manage-img" src={motorcycle.imgURL} />
-            <h3 className="manage-description">{motorcycle.description}</h3>
-            <h4 className="manage-price">{motorcycle.price}</h4>
-            <NavLink className="manage-edit" to={`/edit/${id}`}> EDIT</NavLink>
-            <button className="manage-delete" onClick={handleDelete}>
-              DELETE
-            </button>
-          </div>
+        <div className="manage-container-logo">
+          {motorcycle.brand === "Arch" && (
+            <img className="manage-logo" src="https://www.archmotorcycle.com/assets/images/logo.png" />
+          )}
+          {motorcycle.brand === "Harley Davidson" && (
+            <img className="manage-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Harley-Davidson_logo.svg/1200px-Harley-Davidson_logo.svg.png" />
+          )}
+          {motorcycle.brand === "Yamaha" && (
+            <img className="manage-logo" src="https://www.archmotorcycle.com/assets/images/logo.png" />
+          )}
+          {motorcycle.brand === "Ducati" && (
+            <img className="manage-logo" src="https://www.archmotorcycle.com/assets/images/logo.png" />
+          )}
+          {motorcycle.brand === "BMW" && (
+            <img className="manage-logo" src="https://www.archmotorcycle.com/assets/images/logo.png" />
+          )}
+        </div>
+        <div className="manage-container">
+          <h1 className="manage-name">{motorcycle.name}</h1>
+          <img className="manage-img" src={motorcycle.imgURL} />
+          <h3 className="manage-description">{motorcycle.description}</h3>
+          <h4 className="manage-price">{motorcycle.price}</h4>
+          <NavLink className="manage-edit" to={`/edit/${id}`}> EDIT</NavLink>
+          <button className="manage-delete" onClick={(e)=> props.user ? handleDelete(e) : alert("Please Sign up or Sign in") } >
+            DELETE
+          </button>
+        </div>
       </Layout>
     </div>
   );

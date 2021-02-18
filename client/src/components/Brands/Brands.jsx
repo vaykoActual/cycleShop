@@ -23,7 +23,7 @@ const Brands = (props) => {
       </div>
 
       <div className="brands-container-harley">
-        <div className="brands-name">Harley Davison</div>
+        <div className="brands-name">Harley Davidson</div>
         <img
           className="brands-image-harley"
           src="https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2021/2021-road-glide/2021-road-glide-f16/360/2021-road-glide-f16-motorcycle-01.jpg?impolicy=myresize&rw=1600"
