@@ -6,7 +6,7 @@ import exitIcon from "../../../assets/icons/exit-icon.svg";
 import { useState } from "react";
 import "./Nav.css";
 import React from "react";
-import { signUp } from "../../../services/users";
+// import { signUp } from "../../../services/users";
 
 const signUpIn = (
   <>
@@ -33,7 +33,7 @@ function Nav({ user }) {
         <img className="nav-logo" src={logo} alt="Logo" />
       </NavLink>
       <NavLink className="nav-navlinks-harley" to="/brand/Harley Davidson">
-        HARLEY DAVISON
+        HARLEY DAVIDSON
       </NavLink>
       <NavLink className="nav-navlinks-ducati" to="/brand/Ducati">
         DUCATI
