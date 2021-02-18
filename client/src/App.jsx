@@ -47,10 +47,10 @@ function App() {
           <Manage user={user} />
         </Route>
         <Route path="/edit/:id" >
-          <Edit user={user} products={products} />
+          {user ? <Edit user={user} products={products} /> : <Redirect to="/signup" />}
         </Route>
         <Route path="/sell">
-          <Sell user={user} />
+          {user ? <Sell user={user} /> : <Redirect to="/signup" />}
         </Route>
         <Route path="/contact">
           <Contact user={user} />
