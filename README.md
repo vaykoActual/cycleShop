@@ -1,4 +1,4 @@
-# cycleShop
+<h1 align="center"><strong>cycleShop</strong></h1>
 
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
@@ -22,12 +22,12 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
+<!-- [![Contributors][contributors-shield]][contributors-url] -->
 <!-- [![Forks][forks-shield]][forks-url] -->
 <!-- [![Stargazers][stars-shield]][stars-url] -->
-[![Issues][issues-shield]][issues-url]
+<!-- [![Issues][issues-shield]][issues-url] -->
 <!-- [![MIT License][license-shield]][license-url] -->
-[![LinkedIn][linkedin-shield]][linkedin-url]
+<!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
 
 
 <!-- PROJECT LOGO -->
@@ -37,7 +37,7 @@
     <img src="https://st.automobilemag.com/uploads/sites/11/2017/01/The-Race-of-Gentlemen-05.jpg" alt="Logo" width="280" height="180">
   </a>
 
-  <h3 align="center"><strong>cycleShop</strong></h3>
+  <h3 align="center"><strong>"Go Fast, Don't Die"</strong></h3>
 
   <p align="center">
     cycleShop is a MERN stack, full CRUD motorcycle exchange app.
