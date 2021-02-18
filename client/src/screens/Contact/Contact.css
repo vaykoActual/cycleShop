@@ -73,6 +73,7 @@ p {
 		background-color: #c5baaf;
 		background-image: linear-gradient(to top, #c5baaf, #E3DDD8, #FFFFFF 30%);
 		margin-top: 20px;
+    width: 300px;
 	}
 	.contact-shanye {
 		grid-row: 1/2;

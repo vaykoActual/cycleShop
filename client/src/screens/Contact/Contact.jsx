@@ -13,36 +13,45 @@ function Contact(props) {
         </div>
         <div className="contact-container">
           <div className="contact-shanye">
-            <img src={placeholder} alt="profile picture" />
+            <img height="300px" src='https://media-exp1.licdn.com/dms/image/C4E03AQGtz72tgqB1fQ/profile-displayphoto-shrink_800_800/0/1612885306198?e=1619049600&v=beta&t=sWESi2l_D2B014Ym2FBng7EmWLrCwxY3HXdUmoptm5k' alt="profile picture" />
             <h1>Shayne</h1>
 						<h2>Full-Stack Engineer</h2>
-            <p>Manage and create backend logic</p>
-						<img className="social-icon-github" src={githubIcon} alt="github"/>
-						<img className="social-icon-linkedin" src={linkedinIcon} alt="linkedin"/>
+
+            <div>Created backend logic</div>
+						<a href="https://github.com/vaykoActual" target="_blank"><img className="social-icon-github" src={githubIcon} alt="github" /></a>
+						<a href="http://linkedin.com/in/shaynevaykovich" target="_blank"><img className="social-icon-linkedin" src={linkedinIcon} alt="linkedin"/></a>
+
           </div>
           <div className="contact-aslan">
-            <img src={placeholder} alt="profile picture" />
+            <img height="300px" src="https://media-exp1.licdn.com/dms/image/C4D03AQGsCxsDfur_IA/profile-displayphoto-shrink_800_800/0/1605029291083?e=1619049600&v=beta&t=Ps8Zkm7t7u806ZuU_zJOT7AjzQOgyeno4LifoFDi-0I" alt="profile picture" />
             <h1>Aslan</h1>
 						<h2>Full-Stack Engineer</h2>
-            <p>Manage and create front-end and backend logic</p>
-						<img className="social-icon-github" src={githubIcon} alt="github"/>
-						<img className="social-icon-linkedin" src={linkedinIcon} alt="linkedin"/>
+
+            <div>Created front-end and backend logic</div>
+            <a href="https://github.com/leeuwork" target="_blank"><img className="social-icon-github" src={githubIcon} alt="github" /></a>
+						<a href="https://www.linkedin.com/in/aslanshaken/" target="_blank"><img className="social-icon-linkedin" src={linkedinIcon} alt="linkedin"/></a>
+
           </div>
-          <div className="contact-varit">
-            <img src={placeholder} alt="profile picture" />
+          <div className="contact-varit" >
+            <img height="300px" src='https://media-exp1.licdn.com/dms/image/C4E03AQEU2L1IdwzuRg/profile-displayphoto-shrink_800_800/0/1587520779519?e=1619049600&v=beta&t=K1fDzSb_2QsarkmgZCo1cYRj1Cf_T8D0aOoYOqxdvPo' alt="profile picture" />
             <h1>Varit</h1>
 						<h2>Full-Stack Engineer</h2>
-            <p>Design front-end and UX design</p>
-						<img className="social-icon-github" src={githubIcon} alt="github"/>
-						<img className="social-icon-linkedin" src={linkedinIcon} alt="linkedin"/>
+
+            <div>Design front-end and UX design</div>
+						<a href="https://github.com/varit" target="_blank"><img className="social-icon-github" src={githubIcon} alt="github" /></a>
+						<a href="https://www.linkedin.com/in/varitseekhao/" target="_blank"><img className="social-icon-linkedin" src={linkedinIcon} alt="linkedin"/></a>
+
           </div>
           <div className="contact-steven">
-            <img src={placeholder} alt="profile picture" />
+            <img height="300px" src='https://media-exp1.licdn.com/dms/image/C4D03AQEsPPeMgYM-Zw/profile-displayphoto-shrink_800_800/0/1596214983019?e=1619049600&v=beta&t=P65sI-0hHdTL9TRacbjNKAt99C9fpSzscTkg0dLJvqg' alt="profile picture" />
             <h1>Steven</h1>
 						<h2>Full-Stack Engineer</h2>
-            <p>Manage and create backend logic</p>
-						<img className="social-icon-github" src={githubIcon} alt="github"/>
-						<img className="social-icon-linkedin" src={linkedinIcon} alt="linkedin"/>
+
+            <div>Created backend logic</div>
+						<a href="https://github.com/strum32" target="_blank"><img className="social-icon-github" src={githubIcon} alt="github" /></a>
+						<a href="https://www.linkedin.com/in/steven-strumolo/" target="_blank"><img className="social-icon-linkedin" src={linkedinIcon} alt="linkedin"/></a>
+
+
           </div>
         </div>
       </Layout>
