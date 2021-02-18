@@ -6,7 +6,7 @@ import exitIcon from "../../../assets/icons/exit-icon.svg";
 import { useState } from "react";
 import "./Nav.css";
 import React from "react";
-import { signUp } from "../../../services/users";
+// import { signUp } from "../../../services/users";
 
 const signUpIn = (
   <>
