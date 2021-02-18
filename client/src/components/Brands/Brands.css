@@ -12,7 +12,7 @@
 .brands-container-harley,
 .brands-container-bmw {
   background-color: #c5baaf;
-  background-image: linear-gradient(to top, #c5baaf, #E3DDD8, #FFFFFF 30%);
+  background-image: linear-gradient(to top, #c5baaf, #E3DDD8, #FFFFFF 25%);
 }
 .brands-container-yamaha,
 .brands-container-ducati {
@@ -51,6 +51,8 @@
   align-self: center;
   justify-self: center;
   text-align: center;
+  height: 30px;
+  padding-top: 3px;
   font-weight: 500;
 }
 .brands-name {
@@ -59,6 +61,8 @@
   grid-row: 1;
   align-self: center;
   justify-self: center;
+  font-size: 30px;
+  font-weight: 500;
 }
 .brands-name-arch {
   display: grid;
@@ -66,6 +70,8 @@
   grid-row: 1;
   align-self: center;
   justify-self: center;
+  font-size: 30px;
+  font-weight: 500;
 }
 .brands-shop {
   margin-right: 110px;
@@ -89,5 +95,8 @@
   }
   .brands-image-arch-desk{
     display: none;
+  }
+  .brands-name-arch {
+    padding-top: 15px;
   }
 }

@@ -14,35 +14,35 @@ function Contact(props) {
         <div className="contact-container">
           <div className="contact-shanye">
             <img src={placeholder} alt="profile picture" />
-            <div>Shayne</div>
-						<div>Full-Stack Engineer</div>
-            <div>Description</div>
-						<img src={githubIcon} alt="github"/>
-						<img src={linkedinIcon} alt="linkedin"/>
+            <h1>Shayne</h1>
+						<h3>Full-Stack Engineer</h3>
+            <div>Manage and create backend logic</div>
+						<img className="social-icon-github" src={githubIcon} alt="github"/>
+						<img className="social-icon-linkedin" src={linkedinIcon} alt="linkedin"/>
           </div>
           <div className="contact-aslan">
             <img src={placeholder} alt="profile picture" />
-            <div>Aslan</div>
-						<div>Full-Stack Engineer</div>
-            <div>Description</div>
-						<img src={githubIcon} alt="github"/>
-						<img src={linkedinIcon} alt="linkedin"/>
+            <h1>Aslan</h1>
+						<h2>Full-Stack Engineer</h2>
+            <div>Manage and create front-end and backend logic</div>
+						<img className="social-icon-github" src={githubIcon} alt="github"/>
+						<img className="social-icon-linkedin" src={linkedinIcon} alt="linkedin"/>
           </div>
           <div className="contact-varit">
             <img src={placeholder} alt="profile picture" />
-            <div>Varit</div>
-						<div>Full-Stack Engineer</div>
-            <div>Description</div>
-						<img src={githubIcon} alt="github"/>
-						<img src={linkedinIcon} alt="linkedin"/>
+            <h1>Varit</h1>
+						<h2>Full-Stack Engineer</h2>
+            <div>Design front-end and UX design</div>
+						<img className="social-icon-github" src={githubIcon} alt="github"/>
+						<img className="social-icon-linkedin" src={linkedinIcon} alt="linkedin"/>
           </div>
           <div className="contact-steven">
             <img src={placeholder} alt="profile picture" />
-            <div>Steven</div>
-						<div>Full-Stack Engineer</div>
-            <div>Description</div>
-						<img src={githubIcon} alt="github"/>
-						<img src={linkedinIcon} alt="linkedin"/>
+            <h1>Steven</h1>
+						<h2>Full-Stack Engineer</h2>
+            <div>Manage and create backend logic</div>
+						<img className="social-icon-github" src={githubIcon} alt="github"/>
+						<img className="social-icon-linkedin" src={linkedinIcon} alt="linkedin"/>
           </div>
         </div>
       </Layout>

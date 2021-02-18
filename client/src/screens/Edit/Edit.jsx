@@ -96,13 +96,13 @@ function MotorcycleEdit(props) {
             <input
               className="edit-price"
               placeholder="Price"
-              value={`$${motorcycle.price}`}
+              value={`${motorcycle.price}`}
               name="price"
               required
               onChange={handleChange}
             />
             <button className="edit-save" type="submit">
-              Save
+              SAVE
             </button>
           </form>
         </div>

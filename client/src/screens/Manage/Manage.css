@@ -19,7 +19,7 @@
 .manage-container {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
-  grid-template-rows: 1fr 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-column: 1;
   width: 100vw;
   background-color: #c5baaf;
@@ -28,11 +28,12 @@
 
 .manage-img {
   grid-column: 2/3;
-  grid-row: 2/3;
+  grid-row: 2/4;
 }
 .manage-name {
   grid-column: 3/4;
   grid-row: 1/2;
+  place-self: center;
 }
 .manage-description {
   grid-column: 4/5;
@@ -41,7 +42,7 @@
 }
 .manage-price {
   grid-column: 4/5;
-  grid-row: 2/3;
+  grid-row: 3/4;
   align-self: center;
 }
 .manage-edit,
@@ -54,6 +55,8 @@
   justify-self: center;
   text-align: center;
   font-weight: 500;
+  height: 30px;
+  padding-top: 3px;
 }
 .manage-edit {
   margin-right: 110px;
@@ -64,6 +67,7 @@
   margin-left: 110px;
   background-color: #e2e2e3;
   color: #000000;
+  font-size: 15px;
 }
 @media only screen and (max-width: 375px) {
   .manage-logo,
